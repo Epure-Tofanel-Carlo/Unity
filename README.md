@@ -1,5 +1,5 @@
-# Unity
-MDS Game - The Lucky Tavern
+
+#Unity Game - The Lucky Tavern
 
 Jocul consta intr-o taverna centrala unde o sa se regaseasca diferite jocuri cum ar fi: poker, blackjack, texas hold'em etc.. Pentru a juca in aceasta taverna ai nevoie de bani, iar taverna este facuta sa castige mai des decat tine, astfel incat sa nu fie rentabil sa faci bani pe aceasta cale la inceput.
 In jurul tavernei vor exista multiple sisteme pentru a face rost de bani: fishing, mining, hunting, farming. Pe langa banii obtinuti prin participarea in mecanicile acestea, la anumite checkpoint-uri aceste activitati te vor face sa dobandesti puteri speciale, spre exemplu, la 15 pesti diferiti prinsi vei putea sa folosesti o undita sa extragi o carte din mana cuiva la poker, facand astfel taverna mai distractiva dar si mai lucrativa pentru jucator.
