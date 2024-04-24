@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
+// using static UnityEditor.Progress; // am pus comment ca dadea fail la build
 using System.Text;
 
 namespace Inventory
