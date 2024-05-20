@@ -7,7 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
 
 
-    public string sceneBuildName; // o sa folosescstring
+    public int sceneBuildIndex; // o sa folosesc index in loc de string, daca ar fi nume, tre sa schimbi codu cand schimbi numele scenei
 
 
     private void OnTriggerEnter2D(Collider2D collision)  // cu printuri pt debug
@@ -17,7 +17,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (collision.tag == "Player") 
         {
             print("Switching scene");
-            SceneManager.LoadScene(sceneBuildName, LoadSceneMode.Single) ; // sa fie o singura scena at a time
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single) ; // sa fie o singura scena at a time
         }
     }
 }
