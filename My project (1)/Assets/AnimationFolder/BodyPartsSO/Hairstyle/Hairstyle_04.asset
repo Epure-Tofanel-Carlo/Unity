@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Hairstyle_04
+  m_EditorClassIdentifier: 
+  type: hairstyle
+  animations:
+  - {fileID: 7400000, guid: b61aff7c0de620b429d577ed358a4ef4, type: 2}
+  - {fileID: 7400000, guid: 4f700cf653ecc714c9e1ec6d733a44c6, type: 2}
+  - {fileID: 7400000, guid: e6a7c12eecc0ca04896d28463d29e19a, type: 2}
+  - {fileID: 7400000, guid: ef7d9bd531aa788478799e420d5e4091, type: 2}
+  - {fileID: 7400000, guid: d19e01549a04086488bb0e9284e26898, type: 2}
+  - {fileID: 7400000, guid: b87ebdcf7f6b73f4da81ce6a9365fd23, type: 2}
+  - {fileID: 7400000, guid: 43d35280e879ba14589ff4b23bf2a022, type: 2}
+  - {fileID: 7400000, guid: 3bcd6c80371f20746a9d94e104d946aa, type: 2}
+  baseCost: 164
+  image: {fileID: -2521129505361066355, guid: 39780a0f2bccd914ab52dc7842007b9d, type: 3}
+  purchased: 0
