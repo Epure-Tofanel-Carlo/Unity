@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Glasses_04
+  m_EditorClassIdentifier: 
+  type: glasses
+  animations:
+  - {fileID: 7400000, guid: 266b5c89d91ca914fa8581419d5cb32f, type: 2}
+  - {fileID: 7400000, guid: 276b5a3075535fc40b57960cb85b5167, type: 2}
+  - {fileID: 7400000, guid: 1b7d4d355c6fe0942a889b21549b6d73, type: 2}
+  - {fileID: 7400000, guid: d16b0615fef742048b3aa364a42ea4db, type: 2}
+  - {fileID: 7400000, guid: f9ea3842a4117254fb240d6d741c2c74, type: 2}
+  - {fileID: 7400000, guid: 0a0e78f382a7893448694874d6c133fa, type: 2}
+  baseCost: 192
+  image: {fileID: -1184129935899236843, guid: c1812afead5132e45ab07dc8021c1c0d, type: 3}
+  purchased: 0

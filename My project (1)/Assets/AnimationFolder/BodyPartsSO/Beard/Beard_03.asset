@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Beard_03
+  m_EditorClassIdentifier: 
+  type: beard
+  animations:
+  - {fileID: 7400000, guid: ca8c80d8bbadfa64abfcaa8f9422f923, type: 2}
+  - {fileID: 7400000, guid: 4be16577829d79f45b0bbe60fae519b6, type: 2}
+  - {fileID: 7400000, guid: 7df5d439d872cd84ba3066c2a340ee14, type: 2}
+  - {fileID: 7400000, guid: 87d70f8366938d64c85e74c5564d2f4c, type: 2}
+  - {fileID: 7400000, guid: f1d3d7ee7bfaa4240bf56bbd6965a18b, type: 2}
+  - {fileID: 7400000, guid: 05e38ed4cf315b54e8b6e0f219cd51bf, type: 2}
+  baseCost: 138
+  image: {fileID: -3690537396850641861, guid: 5c9ccab31c3b39846baed109c9e42177, type: 3}
+  purchased: 0
