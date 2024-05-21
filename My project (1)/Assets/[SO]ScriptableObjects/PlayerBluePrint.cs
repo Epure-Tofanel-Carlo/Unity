@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerBluePrint : ScriptableObject
 {
     //SerializeField pot sa il vad in unity, dar nu pot sa il modific(View-Only)
-    [SerializeField] private int health;
+    [SerializeField] private float health;
     [SerializeField] private int armor;
     [SerializeField] private int money;
 
@@ -17,9 +17,12 @@ public class PlayerBluePrint : ScriptableObject
         armor = 100;
         money = 10000;
     }
-    public int getHealth() { return health; }
+    public float getHealth() { return health; }
     public int getArmor() { return armor;}
     public int getMoney() {  return money; }
+
+    public void setHealth(float health) { this.health = health;}
+
     public bool updateMoney(int coins) { 
     if (coins <= 0) return false;
         if (money - coins < 0) { 

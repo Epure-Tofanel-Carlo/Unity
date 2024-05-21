@@ -14,8 +14,7 @@ namespace Inventory
         [SerializeField]
         private InventoryPageScript inventoryUI; // the inventory page
 
-        [SerializeField]
-        private InventorySO inventoryData; // the data structure that contains the "objects"
+        private InventorySO inventoryData;
 
         [SerializeField]
         private AudioSource audioSource;
@@ -28,6 +27,7 @@ namespace Inventory
 
         private void Start()
         {
+            inventoryData = inventoryData = InventoryManager.Instance.GetInventoryData();
             PrepareUI();
             PrepareInventoryData();
         }
@@ -36,34 +36,44 @@ namespace Inventory
         {
             inventoryData.Initialize();
             inventoryData.OnInventoryUpdated += UpdateInventoryUI;
-            foreach (InventoryItem item in initialItems)
+            if (inventoryData.inventoryItems[0].Item == null) // initial items doar daca e prima data cand inventarul este creat
             {
-                if(item.isEmpty)
+                foreach (InventoryItem item in initialItems)
                 {
-                    continue;
+                    if (item.isEmpty)
+                    {
+                        continue;
+                    }
+                    inventoryData.AddItem(item);
                 }
-                inventoryData.AddItem(item);
+                InventoryManager.Instance.setInitialised();
             }
         }
 
         private void UpdateInventoryUI(Dictionary<int, InventoryItem> inventoryState)
         {
-            inventoryUI.ResetAllItems();
-            foreach (var item in inventoryState)
+            if (inventoryUI != null)
             {
-                inventoryUI.UpdateData(item.Key, item.Value.Item.ItemImage, item.Value.itemQuantity);
+                inventoryUI.ResetAllItems();
+                foreach (var item in inventoryState)
+                {
+                    inventoryUI.UpdateData(item.Key, item.Value.Item.ItemImage, item.Value.itemQuantity);
+                }
             }
         }
 
         private void PrepareUI()
         {
-            inventoryUI.InitializeInventoryUI(inventoryData.Size);
-            // Add the events for the inventory UI
-            inventoryUI.OnDescriptionRequested += HandleDescriptionRequest;
-            inventoryUI.OnHoverDescription += RequestHoverDescription;
-            inventoryUI.OnSwapItems += HandleSwapItems;
-            inventoryUI.OnStartDragging += HandleDragging;
-            inventoryUI.OnItemActionRequested += HandleItemActionRequest;
+            if (inventoryUI != null)
+            {
+                inventoryUI.InitializeInventoryUI(inventoryData.Size);
+                // Add the events for the inventory UI
+                inventoryUI.OnDescriptionRequested += HandleDescriptionRequest;
+                inventoryUI.OnHoverDescription += RequestHoverDescription;
+                inventoryUI.OnSwapItems += HandleSwapItems;
+                inventoryUI.OnStartDragging += HandleDragging;
+                inventoryUI.OnItemActionRequested += HandleItemActionRequest;
+            }
         }
         private void HandleDescriptionRequest(int itemIndex)
         {
@@ -132,21 +142,31 @@ namespace Inventory
 
         public void HandleItemActionRequest(int itemIndex)
         {
+            Debug.Log("HandleItemActionRequest called for item index: " + itemIndex);
             InventoryItem inventoryItem = inventoryData.GetItemByIndex(itemIndex);
             if (inventoryItem.isEmpty)
             {
+                Debug.Log("Item is empty");
                 return;
             }
+            
 
             IItemAction itemAction = inventoryItem.Item as IItemAction;
             if (itemAction != null)
             {
+                Debug.Log("Item action found: " + itemAction.actionName);
                 inventoryUI.ShowItemAction(itemIndex);
                 inventoryUI.AddAction(itemAction.actionName, () => PerformAction(itemIndex));
+            }
+            else
+            {
+                Debug.LogWarning("No item action found");
+                inventoryUI.ShowItemAction(itemIndex);
             }
             IDestroyableItem destroyableItem = inventoryItem.Item as IDestroyableItem;
             if (destroyableItem != null)
             {
+                Debug.Log("Destroyable item found");
                 inventoryUI.AddAction("Drop", () => DropItem(itemIndex, inventoryItem.itemQuantity));
             }
         }

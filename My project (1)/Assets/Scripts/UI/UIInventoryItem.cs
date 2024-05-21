@@ -29,19 +29,26 @@ namespace InventoryUI
         public void DeSelect()
         {
             if (borderImage != null)
+            {
                 borderImage.enabled = false;
+            }
         }
 
         public void ResetData()
         {
-            if(itemImage != null)
+            if (itemImage != null)
             {
-                itemImage.gameObject.SetActive(false); //Empty Slot
-                quantityText.text = string.Empty;
-                isEmpty = true;
+                itemImage.gameObject.SetActive(false); // Empty Slot
             }
-           
+
+            if (quantityText != null)
+            {
+                quantityText.text = string.Empty;
+            }
+
+            isEmpty = true;
         }
+
         public void SetData(Sprite sprite, int quantity) // Adding an item to the slot
         {
             itemImage.gameObject.SetActive(true);
