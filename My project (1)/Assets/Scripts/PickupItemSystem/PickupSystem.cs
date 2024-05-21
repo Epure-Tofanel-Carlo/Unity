@@ -18,7 +18,6 @@ public class PickupSystem : MonoBehaviour
         currentItem = collision.GetComponent<Item>();
         if (currentItem != null)
         {
-            // Activăm panoul UI
             if (panelUI != null)
             {
                 panelUI.SetActive(true);
@@ -49,7 +48,6 @@ public class PickupSystem : MonoBehaviour
                 currentItem.DestroyItem();
                 currentItem = null;
 
-                // Dezactivăm panoul UI
                 if (panelUI != null)
                 {
                     panelUI.SetActive(false);

@@ -12000,6 +12000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryData: {fileID: 11400000, guid: 9cecd271b65e58b4eb8bd4d42ffe5399, type: 2}
+  panelUI: {fileID: 0}
 --- !u!114 &1029465785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12013,7 +12014,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryUI: {fileID: 647847775}
-  inventoryData: {fileID: 11400000, guid: 9cecd271b65e58b4eb8bd4d42ffe5399, type: 2}
   audioSource: {fileID: 1029465787}
   dropClip: {fileID: 8300000, guid: 2fb7e74d5c6ee4e4eaa338316f3c4c0f, type: 3}
   itemPrefab: {fileID: 5469481112832729182, guid: ab72bbd3fc8cdce4db26a15ae55dffdd, type: 3}
