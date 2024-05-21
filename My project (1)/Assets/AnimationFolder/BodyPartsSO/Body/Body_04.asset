@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Body_04
+  m_EditorClassIdentifier: 
+  type: body
+  animations:
+  - {fileID: 7400000, guid: e1d230357c0a80344ac50749d6592f0f, type: 2}
+  - {fileID: 7400000, guid: 7d44c0c676f26de46add1f4ae4688cda, type: 2}
+  - {fileID: 7400000, guid: 783f4ffca8a972d47b411fa3ce7cedfc, type: 2}
+  - {fileID: 7400000, guid: c6389aabdcc730843beb2afa78c3456f, type: 2}
+  - {fileID: 7400000, guid: 5320a582528ec284d99a8935d7609004, type: 2}
+  - {fileID: 7400000, guid: f964a1babebeb1142b071ddf6ed144c7, type: 2}
+  - {fileID: 7400000, guid: 4d090fb242af47e40bfc96bdeed91fe9, type: 2}
+  - {fileID: 7400000, guid: 57bc419451c2a7840a6bd40f9f232763, type: 2}
+  baseCost: 113
+  image: {fileID: -5396154295018363337, guid: 6c7a748868c811941b015fef62d15506, type: 3}
+  purchased: 0

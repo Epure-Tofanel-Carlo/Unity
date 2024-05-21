@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Hat_04
+  m_EditorClassIdentifier: 
+  type: hat
+  animations:
+  - {fileID: 7400000, guid: 10691b8b5e0915f46b6277173474578d, type: 2}
+  - {fileID: 7400000, guid: 2da641a251d129b49bfa417413a17b3b, type: 2}
+  - {fileID: 7400000, guid: 6f3ac50d2aa32bf4b870a0e8795bd062, type: 2}
+  - {fileID: 7400000, guid: b13d4fe3d96e9924685f852554de3e9d, type: 2}
+  - {fileID: 7400000, guid: 25714427c66f7f84ca833e2b0b848ed4, type: 2}
+  - {fileID: 7400000, guid: dadd2d7d2b350524dab8a40bf20d2cc5, type: 2}
+  - {fileID: 7400000, guid: f5508f5b018a8154197fb9f7f41f496c, type: 2}
+  - {fileID: 7400000, guid: d6f30a52e3425e649a42a23f1fdaa2b9, type: 2}
+  baseCost: 142
+  image: {fileID: -406327446586373488, guid: 8846df65506ba424b808c6d476bd3b1e, type: 3}
+  purchased: 0

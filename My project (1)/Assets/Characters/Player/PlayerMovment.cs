@@ -5,63 +5,67 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovment : MonoBehaviour
 {
-  
-    public float moveSpeed = 1f;
+    private float speed = 6f;
+    private Rigidbody2D myRigidbody;
+    [SerializeField] private Vector3 playerMovement;
+    public List<Animator> animators;
 
-    // Player Rigidbody2D
-    public Rigidbody2D rigidbody2D;
-    public Animator animator;
-
-    // Vector pentru stocarea directiei de mers
-    Vector2 movement;
-
-    private void Awake()
+    private void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-    }
-
-    private void OnMovement(InputValue value)
-    {
-        movement = value.Get<Vector2>();    
-    }
-
-
-    // Metoda Update este o data per frame
-    void Update()
-    {
-        
-        // citesc intrearea de pe axa, WASD
-
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        if (movement.magnitude > 1)
+        animators = new List<Animator>();
+        Transform player = transform;
+        for (int i = 0; i < player.childCount; i++)
         {
-            movement.Normalize();
+            var anim = player.GetChild(i).GetComponent<Animator>();
+            if (anim != null)
+                animators.Add(anim);
+        }
+        playerMovement = Vector3.zero;
+        myRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    private void FixedUpdate()
+    {
+        playerMovement = Vector3.zero;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
+        {
+            playerMovement.y = Input.GetAxisRaw("Vertical");
+        }
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            playerMovement.x = Input.GetAxisRaw("Horizontal");
         }
 
-        // sa dam update la variabile din animator cu numele vertical/horizontal ca sa isi dea trigger animatia 
-
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.magnitude);
 
 
-        // iau practic ultimul movment pentru a putea face si animatia de idle mai diversificata
-        if (movement.x != 0 || movement.y != 0)
+
+        UpdateAnimationAndMove();
+    }
+
+    private void UpdateAnimationAndMove()
+    {
+        if (playerMovement != Vector3.zero)
         {
-            animator.SetFloat("LastHorizontal", movement.x);
-            animator.SetFloat("LastVertical", movement.y);
+            MoveCharacter();
+            foreach (Animator animator in animators)
+            {
+                animator.SetFloat("moveX", playerMovement.x);
+                animator.SetFloat("moveY", playerMovement.y);
+                animator.SetBool("moving", true);
+            }
+        }
+        else
+        {
+            foreach (Animator animator in animators)
+            {
+                animator.SetBool("moving", false);
+            }
 
         }
     }
 
-    // Metoda FixedUpdate este apelata la intervale fixe si o folosesc pentru actualizari pe fizici
-    void FixedUpdate()
+    private void MoveCharacter()
     {
-
-        // Deplasarea Jucatorului conform vectorului de miscare, vitezei si timpului fixat delta
-        rigidbody2D.MovePosition(rigidbody2D.position + movement * moveSpeed * Time.fixedDeltaTime);
+        myRigidbody.MovePosition(transform.position + playerMovement * speed * Time.deltaTime);
     }
 }
