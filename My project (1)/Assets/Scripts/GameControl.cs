@@ -32,7 +32,7 @@ public class GameControl : MonoBehaviour
             resultsChecked = false;
         }
         // Daca toate sloturile s-au oprit, pot incepe sa calculez prize-ul
-        else if (rows[0].rowStopped && rows[1].rowStopped && rows[2].rowStopped && !resultsChecked)
+        if (rows[0].rowStopped && rows[1].rowStopped && rows[2].rowStopped && !resultsChecked)
         {
             CheckResults();
             prizeText.enabled = true;
@@ -43,7 +43,7 @@ public class GameControl : MonoBehaviour
     private void OnMouseDown()
     {
         if (rows[0].rowStopped && rows[1].rowStopped && rows[2].rowStopped)
-            StartCoroutine(PullHandle());
+            StartCoroutine("PullHandle");
     }
 
     private IEnumerator PullHandle()
@@ -115,8 +115,9 @@ public class GameControl : MonoBehaviour
 }
 
 // Definirea clasei ParticleSystemAnimationRowMode pentru a avea proprietatea rowStopped
+/*
 public class ParticleSystemAnimationRowMode
 {
     public bool rowStopped;
     public string stoppedSlot;
-}
+}*/

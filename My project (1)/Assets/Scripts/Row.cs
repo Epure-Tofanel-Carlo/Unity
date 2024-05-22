@@ -84,6 +84,8 @@ public class Row : MonoBehaviour
         else if (transform.position.y == -0.5f)
             stoppedSlot = "Seven";
         else if (transform.position.y == 0.25f)
+            stoppedSlot = "Cherry";
+        else if (transform.position.y == 1f)
             stoppedSlot = "Lemon";
         else if (transform.position.y == 1.75f)
             stoppedSlot = "Diamond";
