@@ -33,6 +33,10 @@ public class PlayerBluePrint : ScriptableObject
             return true;
         }
     }
+    public void giveMoney(int coins)
+    {
+        money += coins;
+    }
 
 
 

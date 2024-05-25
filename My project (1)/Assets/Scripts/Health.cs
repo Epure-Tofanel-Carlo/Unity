@@ -40,7 +40,7 @@ public class Health : MonoBehaviour
 
     private void CreateHitFeedback()
     {
-        Instantiate(bloodParticle, transform.position, Quaternion.identity);
+       // Instantiate(bloodParticle, transform.position, Quaternion.identity);
         StartCoroutine(FlashFeedback());
     }
 
