@@ -10,7 +10,7 @@ public class GameControl : MonoBehaviour
     public static event Action HandlePulled = delegate { };
 
     [SerializeField]
-    private TextMeshProUGUI prizeText; 
+    private TextMeshProUGUI prizeText;
 
     [SerializeField]
     private Row[] rows;
@@ -43,7 +43,10 @@ public class GameControl : MonoBehaviour
     private void OnMouseDown()
     {
         if (rows[0].rowStopped && rows[1].rowStopped && rows[2].rowStopped)
+        {
+            resultsChecked = false; // Reset resultsChecked when handle is pulled
             StartCoroutine("PullHandle");
+        }
     }
 
     private IEnumerator PullHandle()
