@@ -24,7 +24,7 @@ namespace InventoryUI
 
         private int currentlyDraggedItemIndex = -1;
 
-        public event Action<int> OnDescriptionRequested, OnItemActionRequested, OnStartDragging, OnHoverDescription;
+        public event Action<int> OnDescriptionRequested, OnItemActionRequested, OnStartDragging, OnHoverDescription, OnItemSplitRequested;
         public event Action<int, int> OnSwapItems;
 
         public void Awake()
@@ -46,7 +46,7 @@ namespace InventoryUI
                 item.OnItemEndDrag += HandleEndDrag;
                 item.OnRightMouseButtonClick += HandleShowItemActions;
                 item.OnItemHoverEnter += HandleItemHoverEnter;
-                item.OnItemHoverExit += HandleItemHoverExit;
+                item.OnItemHoverExit += HandleItemHoverExit;           
             }
         }
 
