@@ -12036,7 +12036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
-  currentHealth: {fileID: 11400000, guid: 3e638c5281d738540bbda9ce02547a4f, type: 2}
+  currentHealth: {fileID: 0}
   bloodParticle: {fileID: 2156367806491492928, guid: 5f83e1530fdf11148ba195e4411ba1d9, type: 3}
   renderer: {fileID: 0}
   flashTime: 0.2
@@ -12225,6 +12225,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {x: 0, y: 0, z: 0}
   animators: []
+  dashSpeed: 50
+  dashDuration: 0.09
+  dashCooldown: 0.5
 --- !u!50 &1029465791
 Rigidbody2D:
   serializedVersion: 4
@@ -12456,59 +12459,59 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3269180136904028197, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -1900
       objectReference: {fileID: 0}
     - target: {fileID: 3269180136904028197, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -1060
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1233.772
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 820.526
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 636.886
       objectReference: {fileID: 0}
     - target: {fileID: 4019856956729577668, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -430.263
       objectReference: {fileID: 0}
     - target: {fileID: 4859074630350953198, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4859074630350953198, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1216.772
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 820.526
       objectReference: {fileID: 0}
     - target: {fileID: 7300673176671251057, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_Pivot.x
@@ -12593,6 +12596,10 @@ PrefabInstance:
     - target: {fileID: 7513141035946829232, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7513141035946829232, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18113,7 +18120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836125982995988887, guid: 1b3210747bf83154697be98d2358aee1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2772068932622516038, guid: 1b3210747bf83154697be98d2358aee1, type: 3}
       propertyPath: m_Pivot.x
