@@ -10,7 +10,7 @@ public class GameControl : MonoBehaviour
     public static event Action HandlePulled = delegate { };
 
     [SerializeField]
-    private TextMeshProUGUI prizeText; 
+    private TextMeshProUGUI prizeText;
 
     [SerializeField]
     private Row[] rows;
@@ -43,7 +43,10 @@ public class GameControl : MonoBehaviour
     private void OnMouseDown()
     {
         if (rows[0].rowStopped && rows[1].rowStopped && rows[2].rowStopped)
+        {
+            resultsChecked = false; // Reset resultsChecked cand dai la maneta 
             StartCoroutine("PullHandle");
+        }
     }
 
     private IEnumerator PullHandle()
@@ -114,10 +117,3 @@ public class GameControl : MonoBehaviour
     }
 }
 
-// Definirea clasei ParticleSystemAnimationRowMode pentru a avea proprietatea rowStopped
-/*
-public class ParticleSystemAnimationRowMode
-{
-    public bool rowStopped;
-    public string stoppedSlot;
-}*/

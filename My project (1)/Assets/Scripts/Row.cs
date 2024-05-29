@@ -7,26 +7,29 @@ public class Row : MonoBehaviour
     private int randomValue;
     private float timeInterval;
 
-    public bool rowStopped; 
-    public string stoppedSlot; 
+    public bool rowStopped;
+    public string stoppedSlot;
+
+    // Define a list of slot positions
+    private List<float> slotPositions = new List<float> { -3.5f, -2.75f, -2f, -1.25f, -0.5f, 0.25f, 1f, 1.75f };
 
     void Start()
     {
         rowStopped = true; // Initial, randul este oprit
-        GameControl.HandlePulled += StartRotating; 
+        GameControl.HandlePulled += StartRotating;
     }
 
     private void StartRotating()
     {
         stoppedSlot = ""; // Reseteaza simbolul oprit
-        StartCoroutine("Rotate"); 
+        StartCoroutine("Rotate");
     }
 
     // Functia de rotatie, calculeaza pozitia folosind grade
     private IEnumerator Rotate()
     {
         rowStopped = false; // Seteaza flag-ul pentru a indica ca randul se roteste
-        timeInterval = 0.025f; 
+        timeInterval = 0.025f;
 
         // Roteste randul pentru un numar initial de iteratii
         for (int i = 0; i < 30; i++)
@@ -72,29 +75,52 @@ public class Row : MonoBehaviour
             yield return new WaitForSeconds(timeInterval);
         }
 
+        // Gaseste cea mai apropiata pozitie de slot si ajusteaza pozitia
+        float nearestSlotPosition = FindNearestSlotPosition(transform.position.y);
+        transform.position = new Vector2(transform.position.x, nearestSlotPosition);
+
         // Stabileste simbolul la care s-a oprit randul in functie de pozitia finala
-        if (transform.position.y == -3.5f)
+        if (nearestSlotPosition == -3.5f)
             stoppedSlot = "Diamond";
-        else if (transform.position.y == -2.75f)
+        else if (nearestSlotPosition == -2.75f)
             stoppedSlot = "Crown";
-        else if (transform.position.y == -2f)
+        else if (nearestSlotPosition == -2f)
             stoppedSlot = "Melon";
-        else if (transform.position.y == -1.25f)
+        else if (nearestSlotPosition == -1.25f)
             stoppedSlot = "Bar";
-        else if (transform.position.y == -0.5f)
+        else if (nearestSlotPosition == -0.5f)
             stoppedSlot = "Seven";
-        else if (transform.position.y == 0.25f)
+        else if (nearestSlotPosition == 0.25f)
             stoppedSlot = "Cherry";
-        else if (transform.position.y == 1f)
+        else if (nearestSlotPosition == 1f)
             stoppedSlot = "Lemon";
-        else if (transform.position.y == 1.75f)
+        else if (nearestSlotPosition == 1.75f)
             stoppedSlot = "Diamond";
 
-        rowStopped = true; 
+        rowStopped = true;
+    }
+
+    // Functie pentru a gasi cea mai apropiata pozitie de slot
+    private float FindNearestSlotPosition(float currentPosition)
+    {
+        float nearestPosition = slotPositions[0];
+        float minDistance = Mathf.Abs(currentPosition - nearestPosition);
+
+        foreach (float position in slotPositions)
+        {
+            float distance = Mathf.Abs(currentPosition - position);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                nearestPosition = position;
+            }
+        }
+
+        return nearestPosition;
     }
 
     private void OnDestroy()
     {
-        GameControl.HandlePulled -= StartRotating; 
+        GameControl.HandlePulled -= StartRotating;
     }
 }
