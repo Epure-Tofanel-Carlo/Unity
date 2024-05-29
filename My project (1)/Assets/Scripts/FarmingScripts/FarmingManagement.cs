@@ -14,7 +14,10 @@ public class FarmingManagement : MonoBehaviour
     float timer;
     [SerializeField]
     private InventorySO inventoryData;
-
+    [SerializeField]
+    private GameObject droppedItemPrefab;
+    [field: SerializeField]
+    public ItemSO InventoryItem { get; private set; }
 
     void Start()
     {
@@ -60,6 +63,8 @@ public class FarmingManagement : MonoBehaviour
         Debug.Log("Harvested");
         isPlanted = false;
         plant.gameObject.SetActive(false);
+        inventoryData.AddItem(InventoryItem,1,InventoryItem.DefaultParametersList);
+    
     }
 
     public void Plant()

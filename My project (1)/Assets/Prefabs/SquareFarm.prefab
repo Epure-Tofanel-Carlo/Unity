@@ -136,6 +136,8 @@ MonoBehaviour:
   - {fileID: -1067947525, guid: eb7bafbad6979924890895a136b9cf89, type: 3}
   - {fileID: -645644304, guid: eb7bafbad6979924890895a136b9cf89, type: 3}
   inventoryData: {fileID: 11400000, guid: 9cecd271b65e58b4eb8bd4d42ffe5399, type: 2}
+  droppedItemPrefab: {fileID: 0}
+  <InventoryItem>k__BackingField: {fileID: 11400000, guid: e2ebc13372a727e45905ddb547af40dd, type: 2}
 --- !u!61 &6671663451470758651
 BoxCollider2D:
   m_ObjectHideFlags: 0
