@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.Progress;
 using System.Text;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 
 namespace Inventory
 {
@@ -27,7 +28,7 @@ namespace Inventory
 
         private void Start()
         {
-            inventoryData = inventoryData = InventoryManager.Instance.GetInventoryData();
+            inventoryData  = InventoryManager.Instance.GetInventoryData();
             PrepareUI();
             PrepareInventoryData();
         }
@@ -61,6 +62,7 @@ namespace Inventory
                 }
             }
         }
+
 
         private void PrepareUI()
         {
