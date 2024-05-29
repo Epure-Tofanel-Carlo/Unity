@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f052390a3024d44aa10cea92908c6c, type: 3}
+  m_Name: Outfit_00
+  m_EditorClassIdentifier: 
+  type: outfit
+  animations:
+  - {fileID: 7400000, guid: 8d51b6fa8245bb6479e8c9ad36ae6250, type: 2}
+  - {fileID: 7400000, guid: 308d1aaa94ab8b1489ef2e2096ecbe9f, type: 2}
+  - {fileID: 7400000, guid: deee283c21518b443bc6967d48cf3d99, type: 2}
+  - {fileID: 7400000, guid: 49399e6a4ce7cdc4ba258c6e5ab2ca5c, type: 2}
+  - {fileID: 7400000, guid: e4f3b8523c53c4041bc6c28929027d8a, type: 2}
+  - {fileID: 7400000, guid: c82c71ff0b9735845b70cdfcc7317048, type: 2}
+  - {fileID: 7400000, guid: 621cc000c1e6b50409f1ff0fc468443f, type: 2}
+  - {fileID: 7400000, guid: db4a98a88de98ae4d98a362c906af7b3, type: 2}
+  baseCost: 106
+  image: {fileID: 1394234899147037073, guid: f1182d85947b9084cbc6a9764bfb2d3b, type: 3}
+  purchased: 1

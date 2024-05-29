@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 namespace InventoryUI
 {
-    public class UIInventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler, IPointerEnterHandler
+    public class UIInventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField]
         private Image itemImage;
@@ -28,15 +28,27 @@ namespace InventoryUI
 
         public void DeSelect()
         {
-            borderImage.enabled = false;
+            if (borderImage != null)
+            {
+                borderImage.enabled = false;
+            }
         }
 
         public void ResetData()
         {
-            itemImage.gameObject.SetActive(false); //Empty Slot
-            quantityText.text = string.Empty;
+            if (itemImage != null)
+            {
+                itemImage.gameObject.SetActive(false); // Empty Slot
+            }
+
+            if (quantityText != null)
+            {
+                quantityText.text = string.Empty;
+            }
+
             isEmpty = true;
         }
+
         public void SetData(Sprite sprite, int quantity) // Adding an item to the slot
         {
             itemImage.gameObject.SetActive(true);

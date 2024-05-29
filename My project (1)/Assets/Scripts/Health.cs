@@ -6,7 +6,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 10;
-    [SerializeField] private FloatValueSO currentHealth;
+    [SerializeField] private PlayerBluePrint currentHealth;
 
     [SerializeField] private GameObject bloodParticle;
 
@@ -15,15 +15,16 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        currentHealth.Value = 1;
+        currentHealth.setHealth(1);
         Reduce(1);
     }
 
     public void Reduce(int damage)
     {
-        currentHealth.Value -= damage / maxHealth;
+        float health = currentHealth.getHealth();
+        currentHealth.setHealth(health -  damage / maxHealth);
         CreateHitFeedback();
-        if (currentHealth.Value <= 0)
+        if (health <= 0)
         {
             Die();
         }
@@ -31,14 +32,15 @@ public class Health : MonoBehaviour
 
     public void AddHealth(int healthBoost)
     {
-        int health = Mathf.RoundToInt(currentHealth.Value * maxHealth);
-        int val = health + healthBoost;
-        currentHealth.Value = (val > maxHealth ? maxHealth : val / maxHealth);
+        float health = currentHealth.getHealth();
+        int health1 = Mathf.RoundToInt(health * maxHealth);
+        int val = health1 + healthBoost;
+        health = (val > maxHealth ? maxHealth : val / maxHealth);
     }
 
     private void CreateHitFeedback()
     {
-        Instantiate(bloodParticle, transform.position, Quaternion.identity);
+       // Instantiate(bloodParticle, transform.position, Quaternion.identity);
         StartCoroutine(FlashFeedback());
     }
 
@@ -52,7 +54,7 @@ public class Health : MonoBehaviour
     private void Die()
     {
         Debug.Log("Died");
-        currentHealth.Value = 1;
+        currentHealth.setHealth(1);
     }
 }
 

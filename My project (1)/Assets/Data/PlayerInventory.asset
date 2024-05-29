@@ -14,23 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryItems:
   - itemQuantity: 1
-    Item: {fileID: 11400000, guid: 81c45308e3caed34e8d3b36a06a1c34a, type: 2}
-  - itemQuantity: 0
-    Item: {fileID: 11400000, guid: 266d05b1abd5fbb4498213afeb2d4670, type: 2}
-  - itemQuantity: 1
-    Item: {fileID: 11400000, guid: 266d05b1abd5fbb4498213afeb2d4670, type: 2}
+    Item: {fileID: 11400000, guid: 9fc1f531b28888a478454fc7102fe724, type: 2}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
   - itemQuantity: 0
     Item: {fileID: 0}
+    itemState: []
+  - itemQuantity: 0
+    Item: {fileID: 0}
+    itemState: []
+  - itemQuantity: 0
+    Item: {fileID: 0}
+    itemState: []
   <Size>k__BackingField: 10
+  isInitialized: 1

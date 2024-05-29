@@ -11,7 +11,7 @@ namespace Inventory.Model
     public class InventorySO : ScriptableObject
     {
         [SerializeField]
-        private List<InventoryItem> inventoryItems;
+        public List<InventoryItem> inventoryItems;
         [field: SerializeField]
         public int Size { get; private set; } = 10;
         public event Action<Dictionary<int, InventoryItem>> OnInventoryUpdated;
@@ -129,7 +129,7 @@ namespace Inventory.Model
             inventoryItems[itemIndex2] = item1;
             InformAboutChange();
         }
-        private void InformAboutChange()
+        public void InformAboutChange()
         {
             OnInventoryUpdated?.Invoke(GetCurrentInventoryState());
         }
@@ -162,6 +162,14 @@ namespace Inventory.Model
         public int itemQuantity;
         public ItemSO Item;
         public List<ItemParameter> itemState;
+        private int quantityToSplit;
+
+        public InventoryItem(ItemSO item, int quantityToSplit) : this()
+        {
+            Item = item;
+            this.quantityToSplit = quantityToSplit;
+        }
+
         public bool isEmpty => Item == null;
 
         public InventoryItem ChangeQuantity(int newItemQuantity)

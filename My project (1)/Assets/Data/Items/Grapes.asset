@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604bde5fd2d618d45877958eda7dd184, type: 3}
+  m_Name: Grapes
+  m_EditorClassIdentifier: 
+  <isStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 99
+  <Name>k__BackingField: Grape
+  <Description>k__BackingField: Found in garabge, be careful!
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: 23dfa7fc16af16c4c8c2c0031055da5a, type: 3}
+  <ItemPrefab>k__BackingField: {fileID: 0}
+  <DefaultParametersList>k__BackingField: []
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: dab32d84179d36b4eae63817b8056f32, type: 2}
+    value: 1
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: 04d6b87275dac3f47bc3d00208e441c8, type: 3}

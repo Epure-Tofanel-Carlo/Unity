@@ -1,0 +1,5253 @@
+fileFormatVersion: 2
+guid: e7742667257a2c0439aa42557c02dab7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16_Grocery_store_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3490
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aebc4a8c977f9a4fb2b7a26398718f7
+      internalID: 1443105971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3490
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d16cb65fb9a2b0418f76a9dd44df327
+      internalID: 2001231281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3490
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e929f85d20bd34191ef66ec77e53f6
+      internalID: 197285085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3490
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc26af2db2171664a90f32f7740546d8
+      internalID: 349651501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3424
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec4a46b400c1114ea1c4bd989890429
+      internalID: -507804063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3424
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd093ce7e5aa14ea2f38f0cb1557b8
+      internalID: -1747599722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3426
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d81a36c570b5418f46e247c2b2573
+      internalID: 163516408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3426
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41768e65a604f445ab8d1d697809eec
+      internalID: -1417452708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3360
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760be1daa2991be4196767ff76e413d6
+      internalID: -2144332869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3362
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842e947e67c81764ba5c3098b0ea8b36
+      internalID: 1507513730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3362
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63efe64c30bda254da45fc803035f8c9
+      internalID: 824096039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3362
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32de00da8bd7b7b45868cf64f3e52894
+      internalID: -430581183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3266
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e78a8c7c0350c4bbedee927320fd06
+      internalID: -743134933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3266
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a46841b75ab3145a4e500425f6c264
+      internalID: 1312614606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3296
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3a3cae761b92d449d04216a9cc3720
+      internalID: 639471365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3312
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cba39be5473204687fdcbb9a2cd5fb
+      internalID: 934840222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3264
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45551444e6e8e642a7adba4ec8a0ff3
+      internalID: 1320186620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3168
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9f2ae2ed11eb49a949aaaf84d0624
+      internalID: -237271660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3216
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1f6f74e65bf0c44a4ce8220c1ecb1c
+      internalID: -1454186909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3168
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1bd5b7832a8c74ea68329b94103449
+      internalID: -447466169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3240
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be59428a9c5d88428b62d441d3a0011
+      internalID: -810119255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 3240
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29880662164d98d4bbe64cf8d2fb3ab7
+      internalID: -843807991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3168
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbceeccdede90649ba88621cad33f90
+      internalID: 2100902369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3170
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611477948907aa24d864652dd1238280
+      internalID: 1915095546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3170
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b419b0d23a8e439d4edefd5d928a0
+      internalID: 298259021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3168
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca819ca81766d48bdfe63c0a708c7c
+      internalID: -542837290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3168
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b600d766874149b480655345ed9c8
+      internalID: 740409770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3074
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695c797e4a95e6849a9bff85c092f65e
+      internalID: -337964013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3074
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c83e2ede6311c41be4a6094dd9d316
+      internalID: 1429665400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3099
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7dc09070aff89489b6dcf6d8e37093
+      internalID: 1920287176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2918
+        width: 64
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5a358e595f63f4087bd74ca3000c3d
+      internalID: -751541464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2976
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3957688b629d0cd408545f4b1a36d093
+      internalID: 1836718296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3011
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5780e6fbb371846b224f970fffdb2c
+      internalID: 2002059652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_33
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3011
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1fe2f7249b0044baa1d1cf199d217
+      internalID: -2114598713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_34
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2912
+        width: 16
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5cd0cc34a6b5646b4a0e33a3a9ab48
+      internalID: -31365751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2912
+        width: 16
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef280f5e09343d49a49d3299b89ba4e
+      internalID: -1622619548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_36
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2962
+        width: 124
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b332a81b9b8f3d144811ba6bd3a0908c
+      internalID: 357601343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7264678f135a46943fd100c9c8713
+      internalID: 1770552062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2898
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1608ac4026ef94081f1eaa8de625ef
+      internalID: -1402825622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_39
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2898
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bd8412b7418b345ac7180775fcc36d
+      internalID: -1800341687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2868
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052efaa36832ef84bac7138a09ca034d
+      internalID: -1990262879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2868
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10337a319604c4b84e5d07da657ef1
+      internalID: 184095070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2762
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b551fb5530638044cbb874f53d28564f
+      internalID: 1359091779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2804
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12792c10ceacca842aff070664e750bc
+      internalID: 1699151077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2804
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6016cb17d284cd418464396a8c2f5aa
+      internalID: 1722530042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9828a983c060041bdaa5f3df73fda9
+      internalID: 699561834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_46
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2752
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5827f7d8ad8684e8dfab45d22098c8
+      internalID: 560316378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2720
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacebeb4516ab8448b653903f86c20be
+      internalID: 1214288600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2762
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27516b3396c56b44588a891bdabfba2f
+      internalID: -448174857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2722
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e47674b1427dc4e97ef5ce72496b42
+      internalID: -507937568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_50
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2730
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ebfc34058d0b3489a05979d2286b83
+      internalID: -51473309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2730
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721b7b237b2c81f43b9a3efa9c647147
+      internalID: 1901124202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_52
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2624
+        width: 144
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22858c94e0ea76346828268e9fe2716a
+      internalID: -2010596157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2688
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f09fc9c92bf9440bc643425a2715a3
+      internalID: -1359331093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_54
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2658
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9eab93e881cc24d9e1657f521c83de
+      internalID: 534739783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_55
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2656
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b238ebab27c54341882cb4e85de0ae8
+      internalID: -1787218296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2626
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197787bb49a518e46b786cf602cc1a09
+      internalID: 681438215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_57
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2626
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebc947f983452b4ea0d18cb77662f15
+      internalID: -721527908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_58
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2490
+        width: 156
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005ee79f90f8b4e478aa8c832e903ca4
+      internalID: 1331162152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_59
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2594
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df840e6e9d9eaef4dba7c9d17c344834
+      internalID: -1028908962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_60
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2594
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc2ff811a510664cbee95bf3f0ccefc
+      internalID: -818686884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_61
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2562
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daffd31123b74d49bfa454392456d82
+      internalID: 1297056152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_62
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2562
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855a91c90f64e9b4797cf56002863fae
+      internalID: 370140883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_63
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2530
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846478878c4a154d8139201c792e175
+      internalID: 545426011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_64
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2530
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50839405d318544f9ef311fee669c0b
+      internalID: -1823310564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_65
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2484
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2edb19ec9dd38f4891180ae86fd7e8c
+      internalID: -422004688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_66
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2484
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a51432dab55574aa15d735e27dc5c2
+      internalID: -288066723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_67
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2426
+        width: 156
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac76466501d747409fb3354c46c593d
+      internalID: -564354831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_68
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2442
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bfe6adeb5259541bf74a324e0b4b3c
+      internalID: 679021375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_69
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2442
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd38d400f9603458d611472a818100
+      internalID: 1978094756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2336
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e43ead1200080140ba94669f34b1c4a
+      internalID: 1962032750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2336
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5346dfc830042b74ea17943d30815041
+      internalID: -218635817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2336
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087f246b4e24b844bae8adfd7cf52675
+      internalID: 93506548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2386
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ec1545f867a940bb695e43af21543
+      internalID: -1803702630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_74
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2380
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d36842e7fee82e47950ab6d9c8bd9a9
+      internalID: -77756659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_75
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f027a0fafcf59ee48aacf675452eea5f
+      internalID: -1937757584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_76
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad83d5256f58ae943bf3d4d909530f83
+      internalID: -487633173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_77
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02229f9cf409254194de685bb483200
+      internalID: 201769089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_78
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508a93fb2fb79864d90720d676151d86
+      internalID: 1341549669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_79
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26865418791a1ad4fbbb47a404c1e869
+      internalID: -341499266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2328
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f92bacfd66de04f82293bae209b964
+      internalID: 181378883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2272
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92eb84a63f3e541bc06e5494419571
+      internalID: 1348392201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2272
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f1bcbb48931c4b95a24cd017da6b0
+      internalID: -1944540698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2272
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b4058dcb2154044b35042936896802
+      internalID: 1285720908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc63cc1d891ab342880ad5f7f9b6e74
+      internalID: -2141945323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7374fd5172103f41a9512a8b1e1f148
+      internalID: 1190234212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72512c5930f3a547818e2db38a107e6
+      internalID: -971800648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_87
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0680fa6849294458dc97537ad828d8
+      internalID: -1165878586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_88
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0b52a5720a1be499ca93e2d7faf565
+      internalID: 1600210091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2264
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b6cd47b75a6c499ed3a34fb160fe3
+      internalID: -910266483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2208
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a456847818166d4e9abbb4b692c2582
+      internalID: -16355979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_91
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2208
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25509bd00e4578e4c85bf84b9e60783a
+      internalID: 2121933215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2208
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8918cd845ce50df4e91c4c3571e04492
+      internalID: 1394575884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_93
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d774ce1601d3b99429f92c9a8ce3c1d7
+      internalID: -2068118093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_94
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f765ef98cdd2fbe4882b1a3d1869d0c1
+      internalID: 32611438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_95
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7605e88925a4f2449c511885676040e
+      internalID: 403897259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1614f8067201a8645bf00a2782c0555a
+      internalID: -1051014493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_97
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c18c51785d38804d9b555ec3eee7db8
+      internalID: 856835509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2200
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546788d6a2e61748aabad4f7dd28861
+      internalID: -1587181375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2164
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b1c08db47465419e1520e645cf1d3
+      internalID: 32915363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_100
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2164
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b43aea83de3d84b8ba1b1cb43fa6d6
+      internalID: 1592316804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2164
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f8e6cfeeb42a47bd2aa09cd0ff2ed
+      internalID: 460581287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_102
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2114
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb1fffad0cf5546a0d0379f45810e2
+      internalID: -997209466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_103
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2084
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e34b78bce95fdf47b83e32b5f3d2be2
+      internalID: 114648188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2084
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee743af8f293844e86a03fe881f827f
+      internalID: 1603625210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_105
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2084
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d2fd92d7b416419b81827d3e88ff8
+      internalID: -369745446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_106
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2050
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425d285911d1dc74cad4ecc9e24de69d
+      internalID: -591373081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1978
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949fb6c31de84074988ca4f373131c72
+      internalID: 1660418254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_108
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1978
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4be5ed1a655544f9d39af559e86e92
+      internalID: -692374875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_109
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1988
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ec6e3ccdfc134c9a26f78f9a61884
+      internalID: -419509311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1978
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618eed7766d12154c8cc0661166b741a
+      internalID: -1526764315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_111
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2016
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47cadb5fd8476e47a4775f80f342af7
+      internalID: 1046293488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_112
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1984
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf8f0284639e554783c35b226f014c7
+      internalID: -1096984863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_113
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1904
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6040366c0a1b33940b46c1fff1c5c953
+      internalID: -120976783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_114
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1904
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef737f19cc55f42a26ea5270e914da
+      internalID: -2061401736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1904
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9fbe17f768e7047881087576c69baf
+      internalID: 1173286002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1906
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d38991817821504c9eafe353e1a465c
+      internalID: -175124331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_117
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1932
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f602dc83d4affe46a7fa07316923622
+      internalID: 1936442379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1842
+        width: 244
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb573c0db7dc1be4f81f8ae7dc3f0fb7
+      internalID: -1141275982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1778
+        width: 256
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de0de7dedcddec49bbb4bae8f6988d7
+      internalID: -124810608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_120
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1753
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdf6bd501fb5bf44b2a7725402892b9
+      internalID: 1973069312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_121
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1753
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316d239a4c406d4c89e62b3b88a3468
+      internalID: 343922804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_122
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1696
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49344db109c0bb84fb42b6d4d10933f0
+      internalID: 1040904418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1696
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5205f05284491a54abc28171cc23a01d
+      internalID: -717799889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1696
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0262d1d764fdbb54dba25e6ccf282580
+      internalID: -1334423157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1696
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e89ca9e221055b43959d572f3129cbc
+      internalID: 667054338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_126
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1691
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c095c197b7c5a5f42934b5d28509e139
+      internalID: -1342303155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_127
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1691
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41953706c56b783448fd44d16d0fa267
+      internalID: 1503772442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b3ed03d1829d7469b2623695a4e1d1
+      internalID: -256915246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_129
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1640
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd81fd007fd034b938279bcfe1e836
+      internalID: -1356588663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_130
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1636
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc241c9c33eafde45b321d249d178310
+      internalID: 399813500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_131
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1568
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4914587c57b50449e4b489777b0890
+      internalID: 969690902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_132
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1576
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6f625ddacac6b43bf4b1514929c57b
+      internalID: 1974941443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_133
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1552
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b28ac7e3ea4c47a3fbacf8575be6f
+      internalID: -1448849726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_134
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1568
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a372ca67a26b43a7585a17f2edce7
+      internalID: 1606388649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_135
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1526
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6252d8f8bded90d498214f0f02195dc1
+      internalID: -9536648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1488
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95d7f6ce503e83478868b863bd44738
+      internalID: -1773626900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_137
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1488
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374a58f7c851bc143b709b56a5354986
+      internalID: 399933030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1506
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d681977c0aaebf4b9f42928377a9c9a
+      internalID: -2029918834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_139
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1484
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cf1f8238eda5c439246a763eb5028b
+      internalID: 916869347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1440
+        width: 220
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5394c13b11d244cbcf43c9bac8bee7
+      internalID: 773445254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_141
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1408
+        width: 112
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c4e9d2c614d6e4bb5571a217482968
+      internalID: -239418008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 160
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bda3b513f5f734bb5a837adc7bd709
+      internalID: -1371736498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_143
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1330
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a65865e9e01b4443a369d1143fe4f86
+      internalID: 978989765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_144
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1330
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f988ceaf4a7774fad0eb858e56915e
+      internalID: 464525364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_145
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1332
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322ed45a79a9db849a1b8739e2ee59ac
+      internalID: 1114851147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_146
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1354
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b7dea1fa1a24d4385769b58ecf66d6
+      internalID: 1253880126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_147
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1356
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a944917369af98f4788c332f08066474
+      internalID: 1048161623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_148
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1344
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34095b1a5c65254a8f440de2c506503
+      internalID: -646665555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_149
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1264
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954415bfd4dcb4b41b73a4d709070b82
+      internalID: 1223480149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_150
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1282
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f2d8d597b22ca4f9a8d082df7a39ed
+      internalID: -1107963528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_151
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1282
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6448dde8e78692e448ce22bbd7e3a031
+      internalID: 1962506585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_152
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1290
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149d9a181bb0c4643a92fe1dd21fc6e1
+      internalID: 915478670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22876d9539043e444b264be4c12b919e
+      internalID: -1009145295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_154
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1248
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a74e19f10ecff46833575e48fd595f
+      internalID: -979755297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_155
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1248
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00591e2627e44d647b377c3bb8337b1d
+      internalID: 1188184658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_156
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1218
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e46d8765d8394a42be838813318be5d
+      internalID: -1811906969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_157
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1226
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba1eadf6932e6749b0801844a8aeee8
+      internalID: 1903008216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_158
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1168
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a85366a0ab15ce43bb04b05f686c13e
+      internalID: -1366052931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_159
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1104
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1fdcac00d860644bdb200eef1d2205
+      internalID: 2032636403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440ef3f7192c2014c8c290b6f72340d5
+      internalID: -1131814858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_161
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1072
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3066048e340c2743866c2d68147cee6
+      internalID: 69263591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1058
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ab2dccbb97bdb4a97ed28edd845738
+      internalID: 226462590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1044
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1296459e1d3e444ea617bb493904c17
+      internalID: 2078476072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_164
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1048
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f0590c3ac69aa4eb9a8f61f6a87d46
+      internalID: 62712397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_165
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 992
+        width: 152
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e980100d4c76b4db81757c4bea7204
+      internalID: -2020227752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_166
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 980
+        width: 96
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767a8a39488c734da9d383149696cb9
+      internalID: 349228193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 192
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73be3752ed8d0a14fa0f43fe38c49849
+      internalID: -2016304859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 256
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5066af4652f6c4fafe1acfbcdbe69a
+      internalID: 1452619259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_169
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 854
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787ebaa1a9866342a56736d56d51dda
+      internalID: 903600623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_170
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 720
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f5c4b22969f04c962f3e7c873eb93
+      internalID: -1997203693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_171
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 790
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4a78a6e59c89d4689e21c66657007f
+      internalID: -287636029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_172
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 790
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b555120eeb3f6504bb90cbdc87865c93
+      internalID: 136124774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_173
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 744
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6a27d94494c7241910c0f00b29e159
+      internalID: 1029906255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_174
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 744
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6905c2400ca66941b4515e0e460416a
+      internalID: 1139700141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_175
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 744
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829db9cda915e284d9a87287cde91d4c
+      internalID: -11660329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 724
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0db34a84a375644b6e09eda5a4d0cc
+      internalID: 775426680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_177
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 720
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9a69e16b984cc4bbc4fd38b5697aab
+      internalID: -470044733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_178
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 720
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f015db2560478c44a8cc7c4854233b2
+      internalID: 2043709132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_179
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 688
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f157d8a99d09e42b5da0190e9e8a4a
+      internalID: 1899712142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 636
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0f9a93ecdd73b40ac3a9b6c18b7db7
+      internalID: -1697205107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_181
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 680
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892de1f21c10c754aa58293b3231c807
+      internalID: -1659332000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_182
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 692
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473d6ecc7d514ae498c72c06d9939b55
+      internalID: 1940955803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_183
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 690
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c08e3250f69c8d46850e26a0fab84bc
+      internalID: 1286254478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_184
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 636
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d2185fa5e647040bc290f7b5e3eb45
+      internalID: 162038284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_185
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 656
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0caddcf58955848aa44d0f38679dda
+      internalID: 688158600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_186
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 660
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e7cc6a5465b1a40afc11cc6ab8d5dc
+      internalID: 116924309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_187
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 658
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb3e7b56a93274095ea3637e413258
+      internalID: 928556126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 600
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece45fe0edd13f54cb49585f02a6030b
+      internalID: 1753637508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_189
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 628
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa501d690c7c34f9b0b4edc22bba3e
+      internalID: 943638312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_190
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 628
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617cb9c33f45ee442b20a4de546f64c6
+      internalID: 2087624506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_191
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 574
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b928ec80db21d4e40951d434bb314c73
+      internalID: 987824729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_192
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 578
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea438ac234f850247a9e51a9c8376112
+      internalID: -15934030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_193
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 570
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc62df78be8f86445ac1b0a66d7623e0
+      internalID: -124376597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_194
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 594
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e942ff54b7fa366499fbabc9cf15e2cd
+      internalID: -1998183748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_195
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 566
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724732c7445031440b18fd6fed11de90
+      internalID: -784270727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_196
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 534
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fedb437fe4f934994d2118506d0230
+      internalID: -856767282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_197
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8cef19d6802004197f8107da799566
+      internalID: 1312864351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_198
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fc65bfd252403419e852226b2e388a
+      internalID: 364879090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_199
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 528
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ff0174eefa8940b1940fd6fa61e92
+      internalID: -1077804430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a610fcfdff156a84a818a309d29d726c
+      internalID: -980845574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_201
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 472
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782acf8c5f77837478301746920f9099
+      internalID: -1509556300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_202
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 472
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272ee94627f6a8243bf9678c992bac33
+      internalID: -1062941706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_203
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 472
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da114aa69ff4f242b5817991bbf249e
+      internalID: -1399332893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_204
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 472
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08983eff094143a44a6fed175fa80253
+      internalID: 1588221457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_205
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 388
+        width: 30
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9205cd6b34fb43881cf28dab33feb
+      internalID: 1446011032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_206
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 452
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d5af0c3283ae428eb90ab0d539a70
+      internalID: -785224439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_207
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 452
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cb2dfa4a354b340bdbdf93149a3d61
+      internalID: -1871162586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_208
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 440
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130508bf315b014409e0c9c0f8cf6009
+      internalID: 2014951489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_209
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 400
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2316b8086c1569a44981ef8ee1ad5c1f
+      internalID: 791011766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_210
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 400
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06696cbb19a0f8b42aa5aab8681def7c
+      internalID: 824606229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_211
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 388
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809790236ae397040930dce5ad6a4cd2
+      internalID: 230905716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_212
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 376
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a54a0c0ad20d640b192bb01368183e
+      internalID: -420325558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b539b6495180d4b4c8703955d786cb4a
+      internalID: 1704737227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_214
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 310
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e78abc9f422c4da67adcf76214f50
+      internalID: 525495477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_215
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0844abd5ef3321744a0296e69fb31a91
+      internalID: -2032869597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_216
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2cea1e07e84374ba29daa7ba7cc7a9
+      internalID: -1625894079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_217
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44147668eabe2cc4a939e7c0c44ceb1c
+      internalID: 1561743012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_218
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 228
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d52678787c37479dd4e212ff337ec
+      internalID: -1078039158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_219
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 230
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43a9bfa3399f314684f512bea63dbee
+      internalID: 1898774225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_220
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 228
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dabde636a19e1d41b79a1226242325f
+      internalID: 1599388077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_221
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3e4d5afa61adb4f85f7d512bd41095
+      internalID: -417693599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cd9edc5f201cc4890470f4799256ce
+      internalID: -1898030527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_223
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 164
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3080219a570a51d4badfa50a3dae4149
+      internalID: -1795143842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_224
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 164
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb24cf7131f455e4abdf8b02026899c5
+      internalID: 1511340335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_225
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 164
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c8da1f85abfd4ba46833e2e5d14ef
+      internalID: 776636597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_226
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b549c6e0edb37438764d7ac860f35c
+      internalID: -958901923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_227
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdec29e08d3ccd488a3a247e51211f6
+      internalID: 867550894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_228
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf27d1d4b92e3c489fb3cd323ed17b7
+      internalID: 674167116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_229
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 82
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1bb260c14872f43b3f89bd1374cf78
+      internalID: 1526555002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_230
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 82
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6484dbba208b54db9efd9ee06cd52f
+      internalID: -303924552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_231
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e21c256f485ef4dbe7b14b5cc911e0
+      internalID: -1295190954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16_Grocery_store_232
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f1262d8b9eea44e804ed448c624a53
+      internalID: -104100255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      16_Grocery_store_0: 1443105971
+      16_Grocery_store_1: 2001231281
+      16_Grocery_store_10: 824096039
+      16_Grocery_store_100: 1592316804
+      16_Grocery_store_101: 460581287
+      16_Grocery_store_102: -997209466
+      16_Grocery_store_103: 114648188
+      16_Grocery_store_104: 1603625210
+      16_Grocery_store_105: -369745446
+      16_Grocery_store_106: -591373081
+      16_Grocery_store_107: 1660418254
+      16_Grocery_store_108: -692374875
+      16_Grocery_store_109: -419509311
+      16_Grocery_store_11: -430581183
+      16_Grocery_store_110: -1526764315
+      16_Grocery_store_111: 1046293488
+      16_Grocery_store_112: -1096984863
+      16_Grocery_store_113: -120976783
+      16_Grocery_store_114: -2061401736
+      16_Grocery_store_115: 1173286002
+      16_Grocery_store_116: -175124331
+      16_Grocery_store_117: 1936442379
+      16_Grocery_store_118: -1141275982
+      16_Grocery_store_119: -124810608
+      16_Grocery_store_12: -743134933
+      16_Grocery_store_120: 1973069312
+      16_Grocery_store_121: 343922804
+      16_Grocery_store_122: 1040904418
+      16_Grocery_store_123: -717799889
+      16_Grocery_store_124: -1334423157
+      16_Grocery_store_125: 667054338
+      16_Grocery_store_126: -1342303155
+      16_Grocery_store_127: 1503772442
+      16_Grocery_store_128: -256915246
+      16_Grocery_store_129: -1356588663
+      16_Grocery_store_13: 1312614606
+      16_Grocery_store_130: 399813500
+      16_Grocery_store_131: 969690902
+      16_Grocery_store_132: 1974941443
+      16_Grocery_store_133: -1448849726
+      16_Grocery_store_134: 1606388649
+      16_Grocery_store_135: -9536648
+      16_Grocery_store_136: -1773626900
+      16_Grocery_store_137: 399933030
+      16_Grocery_store_138: -2029918834
+      16_Grocery_store_139: 916869347
+      16_Grocery_store_14: 639471365
+      16_Grocery_store_140: 773445254
+      16_Grocery_store_141: -239418008
+      16_Grocery_store_142: -1371736498
+      16_Grocery_store_143: 978989765
+      16_Grocery_store_144: 464525364
+      16_Grocery_store_145: 1114851147
+      16_Grocery_store_146: 1253880126
+      16_Grocery_store_147: 1048161623
+      16_Grocery_store_148: -646665555
+      16_Grocery_store_149: 1223480149
+      16_Grocery_store_15: 934840222
+      16_Grocery_store_150: -1107963528
+      16_Grocery_store_151: 1962506585
+      16_Grocery_store_152: 915478670
+      16_Grocery_store_153: -1009145295
+      16_Grocery_store_154: -979755297
+      16_Grocery_store_155: 1188184658
+      16_Grocery_store_156: -1811906969
+      16_Grocery_store_157: 1903008216
+      16_Grocery_store_158: -1366052931
+      16_Grocery_store_159: 2032636403
+      16_Grocery_store_16: 1320186620
+      16_Grocery_store_160: -1131814858
+      16_Grocery_store_161: 69263591
+      16_Grocery_store_162: 226462590
+      16_Grocery_store_163: 2078476072
+      16_Grocery_store_164: 62712397
+      16_Grocery_store_165: -2020227752
+      16_Grocery_store_166: 349228193
+      16_Grocery_store_167: -2016304859
+      16_Grocery_store_168: 1452619259
+      16_Grocery_store_169: 903600623
+      16_Grocery_store_17: -237271660
+      16_Grocery_store_170: -1997203693
+      16_Grocery_store_171: -287636029
+      16_Grocery_store_172: 136124774
+      16_Grocery_store_173: 1029906255
+      16_Grocery_store_174: 1139700141
+      16_Grocery_store_175: -11660329
+      16_Grocery_store_176: 775426680
+      16_Grocery_store_177: -470044733
+      16_Grocery_store_178: 2043709132
+      16_Grocery_store_179: 1899712142
+      16_Grocery_store_18: -1454186909
+      16_Grocery_store_180: -1697205107
+      16_Grocery_store_181: -1659332000
+      16_Grocery_store_182: 1940955803
+      16_Grocery_store_183: 1286254478
+      16_Grocery_store_184: 162038284
+      16_Grocery_store_185: 688158600
+      16_Grocery_store_186: 116924309
+      16_Grocery_store_187: 928556126
+      16_Grocery_store_188: 1753637508
+      16_Grocery_store_189: 943638312
+      16_Grocery_store_19: -447466169
+      16_Grocery_store_190: 2087624506
+      16_Grocery_store_191: 987824729
+      16_Grocery_store_192: -15934030
+      16_Grocery_store_193: -124376597
+      16_Grocery_store_194: -1998183748
+      16_Grocery_store_195: -784270727
+      16_Grocery_store_196: -856767282
+      16_Grocery_store_197: 1312864351
+      16_Grocery_store_198: 364879090
+      16_Grocery_store_199: -1077804430
+      16_Grocery_store_2: 197285085
+      16_Grocery_store_20: -810119255
+      16_Grocery_store_200: -980845574
+      16_Grocery_store_201: -1509556300
+      16_Grocery_store_202: -1062941706
+      16_Grocery_store_203: -1399332893
+      16_Grocery_store_204: 1588221457
+      16_Grocery_store_205: 1446011032
+      16_Grocery_store_206: -785224439
+      16_Grocery_store_207: -1871162586
+      16_Grocery_store_208: 2014951489
+      16_Grocery_store_209: 791011766
+      16_Grocery_store_21: -843807991
+      16_Grocery_store_210: 824606229
+      16_Grocery_store_211: 230905716
+      16_Grocery_store_212: -420325558
+      16_Grocery_store_213: 1704737227
+      16_Grocery_store_214: 525495477
+      16_Grocery_store_215: -2032869597
+      16_Grocery_store_216: -1625894079
+      16_Grocery_store_217: 1561743012
+      16_Grocery_store_218: -1078039158
+      16_Grocery_store_219: 1898774225
+      16_Grocery_store_22: 2100902369
+      16_Grocery_store_220: 1599388077
+      16_Grocery_store_221: -417693599
+      16_Grocery_store_222: -1898030527
+      16_Grocery_store_223: -1795143842
+      16_Grocery_store_224: 1511340335
+      16_Grocery_store_225: 776636597
+      16_Grocery_store_226: -958901923
+      16_Grocery_store_227: 867550894
+      16_Grocery_store_228: 674167116
+      16_Grocery_store_229: 1526555002
+      16_Grocery_store_23: 1915095546
+      16_Grocery_store_230: -303924552
+      16_Grocery_store_231: -1295190954
+      16_Grocery_store_232: -104100255
+      16_Grocery_store_24: 298259021
+      16_Grocery_store_25: -542837290
+      16_Grocery_store_26: 740409770
+      16_Grocery_store_27: -337964013
+      16_Grocery_store_28: 1429665400
+      16_Grocery_store_29: 1920287176
+      16_Grocery_store_3: 349651501
+      16_Grocery_store_30: -751541464
+      16_Grocery_store_31: 1836718296
+      16_Grocery_store_32: 2002059652
+      16_Grocery_store_33: -2114598713
+      16_Grocery_store_34: -31365751
+      16_Grocery_store_35: -1622619548
+      16_Grocery_store_36: 357601343
+      16_Grocery_store_37: 1770552062
+      16_Grocery_store_38: -1402825622
+      16_Grocery_store_39: -1800341687
+      16_Grocery_store_4: -507804063
+      16_Grocery_store_40: -1990262879
+      16_Grocery_store_41: 184095070
+      16_Grocery_store_42: 1359091779
+      16_Grocery_store_43: 1699151077
+      16_Grocery_store_44: 1722530042
+      16_Grocery_store_45: 699561834
+      16_Grocery_store_46: 560316378
+      16_Grocery_store_47: 1214288600
+      16_Grocery_store_48: -448174857
+      16_Grocery_store_49: -507937568
+      16_Grocery_store_5: -1747599722
+      16_Grocery_store_50: -51473309
+      16_Grocery_store_51: 1901124202
+      16_Grocery_store_52: -2010596157
+      16_Grocery_store_53: -1359331093
+      16_Grocery_store_54: 534739783
+      16_Grocery_store_55: -1787218296
+      16_Grocery_store_56: 681438215
+      16_Grocery_store_57: -721527908
+      16_Grocery_store_58: 1331162152
+      16_Grocery_store_59: -1028908962
+      16_Grocery_store_6: 163516408
+      16_Grocery_store_60: -818686884
+      16_Grocery_store_61: 1297056152
+      16_Grocery_store_62: 370140883
+      16_Grocery_store_63: 545426011
+      16_Grocery_store_64: -1823310564
+      16_Grocery_store_65: -422004688
+      16_Grocery_store_66: -288066723
+      16_Grocery_store_67: -564354831
+      16_Grocery_store_68: 679021375
+      16_Grocery_store_69: 1978094756
+      16_Grocery_store_7: -1417452708
+      16_Grocery_store_70: 1962032750
+      16_Grocery_store_71: -218635817
+      16_Grocery_store_72: 93506548
+      16_Grocery_store_73: -1803702630
+      16_Grocery_store_74: -77756659
+      16_Grocery_store_75: -1937757584
+      16_Grocery_store_76: -487633173
+      16_Grocery_store_77: 201769089
+      16_Grocery_store_78: 1341549669
+      16_Grocery_store_79: -341499266
+      16_Grocery_store_8: -2144332869
+      16_Grocery_store_80: 181378883
+      16_Grocery_store_81: 1348392201
+      16_Grocery_store_82: -1944540698
+      16_Grocery_store_83: 1285720908
+      16_Grocery_store_84: -2141945323
+      16_Grocery_store_85: 1190234212
+      16_Grocery_store_86: -971800648
+      16_Grocery_store_87: -1165878586
+      16_Grocery_store_88: 1600210091
+      16_Grocery_store_89: -910266483
+      16_Grocery_store_9: 1507513730
+      16_Grocery_store_90: -16355979
+      16_Grocery_store_91: 2121933215
+      16_Grocery_store_92: 1394575884
+      16_Grocery_store_93: -2068118093
+      16_Grocery_store_94: 32611438
+      16_Grocery_store_95: 403897259
+      16_Grocery_store_96: -1051014493
+      16_Grocery_store_97: 856835509
+      16_Grocery_store_98: -1587181375
+      16_Grocery_store_99: 32915363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
