@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a397b28abe417f045a5a47b79753dad4, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: 
+  <isStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 64
+  <Name>k__BackingField: Stone
+  <Description>k__BackingField: 
+  <ItemImage>k__BackingField: {fileID: -278575479, guid: a38b6dc65c02f86448b1b5246ab5de0c, type: 3}
+  <ItemPrefab>k__BackingField: {fileID: 0}
+  <DefaultParametersList>k__BackingField: []
+  <MineTime>k__BackingField: 1
