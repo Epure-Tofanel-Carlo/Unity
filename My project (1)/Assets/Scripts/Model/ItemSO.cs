@@ -24,7 +24,8 @@ namespace Inventory.Model
         [field: SerializeField]
         public GameObject ItemPrefab { get; set; }
         [field: SerializeField]
-
+        public int Price { get; set; } = 100;
+        [field: SerializeField]
         public List<ItemParameter> DefaultParametersList { get; set; }
     }
 
