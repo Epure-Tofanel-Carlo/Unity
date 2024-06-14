@@ -14101,6 +14101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556131970}
   - component: {fileID: 1556131969}
+  - component: {fileID: 1556131971}
   m_Layer: 0
   m_Name: SlotMachine
   m_TagString: Untagged
@@ -14169,6 +14170,19 @@ Transform:
   - {fileID: 676769511}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1556131971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556131968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726f8e62300c27d49a2bbeee497d3164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotMachine: SlotMachine
 --- !u!1001 &1581083837
 PrefabInstance:
   m_ObjectHideFlags: 0
