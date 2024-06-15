@@ -23,17 +23,17 @@ namespace InventoryUI
 
 
         private int currentlyDraggedItemIndex = -1;
-
+        //Evenimentele din Unity pentru click dreapta, hover, dragging si swap
         public event Action<int> OnDescriptionRequested, OnItemActionRequested, OnStartDragging, OnHoverDescription, OnItemSplitRequested;
         public event Action<int, int> OnSwapItems;
 
-        public void Awake()
+        public void Awake() // Se da disable la UI si se reseteaza mouse followerul si descriptia care apare cand se da hover peste item
         {
             Hide();
-            mouseFollower.Toggle(false);
+            mouseFollower.Toggle(false); 
             itemDescription.ResetDescription();
         }
-        public void InitializeInventoryUI(int size_of_inventory)
+        public void InitializeInventoryUI(int size_of_inventory) // initializare partea de UI a inventarului si se adauga cum vor fi tratate evenimentele
         {
             for (int i = 0; i < size_of_inventory; i++)
             {
@@ -50,6 +50,7 @@ namespace InventoryUI
             }
         }
 
+        // Functiile care manipuleaza felul in care evenimentele din Unity vor exista
         private void HandleItemSelection(UIInventoryItem item)
         {
             int index = items.IndexOf(item);
@@ -99,6 +100,7 @@ namespace InventoryUI
             currentlyDraggedItemIndex = -1;
         }
 
+        //Functie care modifica pozitia unui item in UI
         public void UpdateData(int itemIndex, Sprite itemImage, int itemQuantity)
         {
             if (items.Count > itemIndex)
@@ -111,7 +113,7 @@ namespace InventoryUI
         {
             ResetDraggedItem();
         }
-
+        // Functie care atunci cand playerul pune mouseul deasupra unui item sa ii apara o descriere a acelui item
         private void HandleShowItemActions(UIInventoryItem item)
         {
             int index = items.IndexOf(item);
@@ -156,7 +158,7 @@ namespace InventoryUI
             }
             actionPanel.Toggle(false);
         }
-
+        //Cand jucatorul inchide inventarul se reseteaza actiunile de select, descrierea si se da disable la partea de UI a inventarului
         public void Hide()
         {
             actionPanel.Toggle(false);

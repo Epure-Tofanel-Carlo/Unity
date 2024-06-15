@@ -10129,7 +10129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f187187f4012c704ba24d47fe48ae7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
+  sceneBuildIndex: 1
+  sceneToSwith:
+    m_Handle: 0
+  switherName: Main
 --- !u!61 &704823724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12693,17 +12696,7 @@ MonoBehaviour:
   audioSource: {fileID: 1029465787}
   dropClip: {fileID: 8300000, guid: 2fb7e74d5c6ee4e4eaa338316f3c4c0f, type: 3}
   itemPrefab: {fileID: 5469481112832729182, guid: ab72bbd3fc8cdce4db26a15ae55dffdd, type: 3}
-  initialItems:
-  - itemQuantity: 2
-    Item: {fileID: 11400000, guid: c6591e7918d593446bd347666d01dac5, type: 2}
-    itemState:
-    - itemParameter: {fileID: 11400000, guid: 7be335bb4b31d35418047be8de9c0a21, type: 2}
-      value: 100
-  - itemQuantity: 2
-    Item: {fileID: 11400000, guid: 9fc1f531b28888a478454fc7102fe724, type: 2}
-    itemState:
-    - itemParameter: {fileID: 11400000, guid: 7be335bb4b31d35418047be8de9c0a21, type: 2}
-      value: 100
+  initialItems: []
 --- !u!114 &1029465786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12906,6 +12899,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {x: 0, y: 0, z: 0}
   animators: []
+  dashSpeed: 50
+  dashDuration: 0.09
+  dashCooldown: 0.5
 --- !u!50 &1029465791
 Rigidbody2D:
   serializedVersion: 4
@@ -12984,7 +12980,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryData: {fileID: 11400000, guid: 9cecd271b65e58b4eb8bd4d42ffe5399, type: 2}
   craftingView: {fileID: 1688553084}
-  craftingRecipes: []
+  craftingRecipes:
+  - {fileID: 11400000, guid: cae12476495c57a4c93d1ce8903ada03, type: 2}
+  - {fileID: 11400000, guid: e45fe584802ce994c98fc4a98d3a7664, type: 2}
 --- !u!114 &1070619762 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4016088716090623139, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
@@ -15063,7 +15061,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f187187f4012c704ba24d47fe48ae7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
+  sceneBuildIndex: 3
+  sceneToSwith:
+    m_Handle: 0
+  switherName: Farm
 --- !u!61 &1893140854
 BoxCollider2D:
   m_ObjectHideFlags: 0

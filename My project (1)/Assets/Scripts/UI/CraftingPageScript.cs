@@ -13,6 +13,7 @@ public class CraftingPageScript : MonoBehaviour
 
     private List<UICraftingRecipe> recipeSlots = new List<UICraftingRecipe>();
 
+    //Functie care initializeaza pagina de crafting si aduaga modalitatea in care vor fi tratate evenimentele jucatorului
     public void InitializeCraftingUI(List<CraftingItemRecipeSO> recipes)
     {
         foreach (var recipe in recipes)
@@ -26,7 +27,7 @@ public class CraftingPageScript : MonoBehaviour
         }
     }
 
-
+    //Functie care trateaza evenimentul de hover asupra unei retete de catre jucator
     private void HandleRecipeHoverEnter(UICraftingRecipe recipeUI)
     {
         CraftingItemRecipeSO recipe = recipeUI.GetRecipe();

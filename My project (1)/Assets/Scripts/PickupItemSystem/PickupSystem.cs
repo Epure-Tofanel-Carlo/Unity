@@ -13,6 +13,7 @@ public class PickupSystem : MonoBehaviour
 
     private Item currentItem;
 
+    //Functii care trateaza momentul in care jucatorul "se loveste" de obiectul amplasat pe sol
     private void OnTriggerEnter2D(Collider2D collision)
     {
         currentItem = collision.GetComponent<Item>();
@@ -37,7 +38,7 @@ public class PickupSystem : MonoBehaviour
             }
         }
     }
-
+    //Functia care trateaza momentul cand jucatorul vrea sa ridice itemul de pe jos
     private void Update()
     {
         if (currentItem != null && Input.GetKeyDown(KeyCode.E))

@@ -10,6 +10,7 @@ public class CraftingController : MonoBehaviour
 
     private void Start()
     {
+        //Functii care trateaza posibile erori
         if (craftingView == null)
         {
             Debug.LogError("CraftingView is not assigned in the inspector.");
@@ -21,21 +22,20 @@ public class CraftingController : MonoBehaviour
             Debug.LogError("Crafting recipes are not assigned or empty.");
             return;
         }
-
+        //Daca nu s-a intamplat nicio eroare se initializeaza UI ul sistemului de craft si adauga fiecarei retete modalitatea in care se va tratata selectarea acesteia
         craftingView.InitializeCraftingUI(craftingRecipes);
         foreach (var slot in craftingView.GetRecipeSlots())
         {
             slot.OnRecipeClicked += HandleRecipeClicked;
         }
     }
-
     private void HandleRecipeClicked(UICraftingRecipe recipeUI)
     {
         CraftingItemRecipeSO recipe = recipeUI.GetRecipe();
         Debug.Log("Crafting");
         CraftItem(recipe);
     }
-
+    //Functie care verifica daca jucatorul are toate ingredientele necesare ca sa poate crea acel obiect
     public bool HasIngredients(CraftingItemRecipeSO recipe)
     {
         foreach (var ingredient in recipe.ingredients)
@@ -47,7 +47,7 @@ public class CraftingController : MonoBehaviour
         }
         return true;
     }
-
+    //Functie ajutatoare pentru HasIngredients
     private bool HasItem(ItemSO item, int quantity)
     {
         int count = 0;
@@ -64,7 +64,7 @@ public class CraftingController : MonoBehaviour
         }
         return false;
     }
-
+    //Functia care trateaza cum jucatorul va crea acel obiect
     public void CraftItem(CraftingItemRecipeSO recipe)
     {
         if (!HasIngredients(recipe))
@@ -80,7 +80,7 @@ public class CraftingController : MonoBehaviour
 
         AddItem(recipe.result.Item, recipe.result.itemQuantity, recipe.result.itemState);
     }
-
+    //Eliminarea obiectelor care au fost folosite
     private void RemoveItem(ItemSO item, int quantity)
     {
         for (int i = 0; i < inventoryData.inventoryItems.Count; i++)
@@ -101,11 +101,12 @@ public class CraftingController : MonoBehaviour
         }
         inventoryData.InformAboutChange();
     }
-
+    //Adaugarea obiectului creat in inventar
     private void AddItem(ItemSO item, int quantity, List<ItemParameter> itemState)
     {
         inventoryData.AddItem(item, quantity, itemState);
     }
+    //Functie care verifica daca playerul a deschis pagina de craft
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.C))
