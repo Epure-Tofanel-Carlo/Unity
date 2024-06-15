@@ -13984,6 +13984,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 222546038}
     - target: {fileID: 1877947349477146756, guid: d006e68a12f099d4d8857326fc7b5584, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877947349477146756, guid: d006e68a12f099d4d8857326fc7b5584, type: 3}
       propertyPath: npcMessage
       value: 
       objectReference: {fileID: 1548664482}
@@ -14001,7 +14005,7 @@ PrefabInstance:
       objectReference: {fileID: 855939554}
     - target: {fileID: 5016527041310325440, guid: d006e68a12f099d4d8857326fc7b5584, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6072705991013835070, guid: d006e68a12f099d4d8857326fc7b5584, type: 3}
       propertyPath: m_UiScaleMode
@@ -14916,6 +14920,10 @@ PrefabInstance:
     - target: {fileID: 7513141035946829232, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959031288256013845, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.999939
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
