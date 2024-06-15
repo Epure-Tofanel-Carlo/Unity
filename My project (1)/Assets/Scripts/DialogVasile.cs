@@ -12,7 +12,7 @@ public class DialogVasile : MonoBehaviour
     [SerializeField] private GameObject responseFrame;
     private bool isTexting = false;
 
-    public PlayerInventory playerInventory;
+    public PlayerInventory playerInventory; // Instanta a clasei PlayerInventory
 
     private int goldCost = 20;
 
@@ -23,6 +23,8 @@ public class DialogVasile : MonoBehaviour
 
         acceptButton.onClick.AddListener(OnAccept);
         declineButton.onClick.AddListener(OnDecline);
+
+        playerInventory = new PlayerInventory();
     }
 
     public void ResetFrame()
