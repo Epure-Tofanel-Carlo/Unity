@@ -14,12 +14,12 @@ public class InventoryManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); // este dontdestroyonload strict ca sa mentina datele din inventar la schimbul intre scene
             LoadInventory();
         }
     }
 
-    private void LoadInventory()
+    private void LoadInventory() // functie care imi cauta in proiect inventarul si il incarca in joc 
     {
         playerInventory = AssetDatabase.LoadAssetAtPath<InventorySO>("Assets/Data/PlayerInventory.asset");
         if (playerInventory == null)
@@ -28,7 +28,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public InventorySO GetInventoryData()
+    public InventorySO GetInventoryData() // intoarce inventarul
     {
         return playerInventory;
     }

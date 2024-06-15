@@ -26,16 +26,17 @@ namespace Inventory
 
         public List<InventoryItem> initialItems = new List<InventoryItem>();
 
+        //Functia de start care adauga structura de date unde sunt tinute itemele din inventar
         private void Start()
         {
             inventoryData  = InventoryManager.Instance.GetInventoryData();
             PrepareUI();
             PrepareInventoryData();
         }
-
+        //Functie care initializeaza inventarul si adauga itemele necesare in caz de exista
         private void PrepareInventoryData()
         {
-            inventoryData.Initialize();
+            //inventoryData.Initialize();
             inventoryData.OnInventoryUpdated += UpdateInventoryUI;
             if (inventoryData.inventoryItems[0].Item == null) // initial items doar daca e prima data cand inventarul este creat
             {
@@ -50,7 +51,7 @@ namespace Inventory
                 InventoryManager.Instance.setInitialised();
             }
         }
-
+        //Functia care updateaza partea UI a inventarului cand o modificare a aparut la nivelul inventarului
         private void UpdateInventoryUI(Dictionary<int, InventoryItem> inventoryState)
         {
             if (inventoryUI != null)
@@ -63,7 +64,7 @@ namespace Inventory
             }
         }
 
-
+        //Functia care pregateste partea de UI
         private void PrepareUI()
         {
             if (inventoryUI != null)
@@ -90,7 +91,7 @@ namespace Inventory
             inventoryUI.UpdateDescription(itemIndex,
                 item.name, description);
         }
-
+        //Functie care creeaza descrierea unui obiect in joc prin intermediul unui StringBuilder
         private string PrepareDescription(InventoryItem inventoryItem)
         {
             StringBuilder stringBuilder = new StringBuilder();
@@ -104,7 +105,7 @@ namespace Inventory
             }
             return stringBuilder.ToString();
         }
-
+        //Functia care descrie evenimentul de hover asupra unui obiect
         public void RequestHoverDescription(int index)
         {
             InventoryItem inventoryItem = inventoryData.GetItemByIndex(index);
@@ -121,7 +122,7 @@ namespace Inventory
         {
             inventoryUI.DisableDescription();
         }
-
+        //Functia care actioneaza actiunea dorita de jucator
         private void PerformAction(int itemIndex)
         {
             InventoryItem inventoryItem = inventoryData.GetItemByIndex(itemIndex);
@@ -141,7 +142,7 @@ namespace Inventory
                 inventoryData.RemoveItem(itemIndex, 1);
             }
         }
-
+        //Functia care verifica ce actiuni poate sa aiba un obiect din inventar si sa il afiseze jucatorului
         public void HandleItemActionRequest(int itemIndex)
         {
             Debug.Log("HandleItemActionRequest called for item index: " + itemIndex);
@@ -172,7 +173,7 @@ namespace Inventory
                 inventoryUI.AddAction("Drop", () => DropItem(itemIndex, inventoryItem.itemQuantity));
             }
         }
-
+        //Functia prin care se da drop la item pe jos de catre player
         private void DropItem(int itemIndex, int itemQuantity)
         {
             InventoryItem inventoryItem = inventoryData.GetItemByIndex(itemIndex);
@@ -198,7 +199,7 @@ namespace Inventory
                 Debug.LogWarning("Attempted to drop an item that is either null or empty.");
             }
         }
-
+        //Functie utilitara care calculeaza pozitia unde obiectul va fi creat
         private Vector3 CalculateDropPosition()
         {
             // Example: Place the item 1.5 meters in front of the player
@@ -207,7 +208,7 @@ namespace Inventory
             return dropPosition;
         }
 
-
+        //Functia care descrie felul in care draggingul este implementat
 
         private void HandleDragging(int itemIndex)
         {
@@ -227,7 +228,7 @@ namespace Inventory
         {
             inventoryData.SwapItems(itemIndex1, itemIndex2);
         }
-
+        //Functie care verifica daca jucatorul doreste sa vad inventarul
         public void Update()
         {
             if (Input.GetKeyDown(KeyCode.I))

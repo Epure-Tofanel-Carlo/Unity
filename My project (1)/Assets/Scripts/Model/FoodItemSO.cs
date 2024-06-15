@@ -13,7 +13,7 @@ namespace Inventory.Model
         public string actionName => "Consume";
         [field: SerializeField]
         public AudioClip actionSFX { get; private set; }
-
+        //Functie care verifica ce lucruri modifica cand este folosit acel item, exemplu daca jucatorul mananca un mar, viata jucatorului va creste cu un anumite valori
         public bool PerformAction(GameObject character, List<ItemParameter> itemState = null)
         {
             foreach (ModifierData modifierData in modifiersData)
@@ -27,6 +27,7 @@ namespace Inventory.Model
     {
 
     }
+    //Interfata pentru actiunea pe care poate sa o aiba un item
     public interface IItemAction
     {
         public string actionName { get;}

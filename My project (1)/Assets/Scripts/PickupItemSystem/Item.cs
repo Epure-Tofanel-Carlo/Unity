@@ -28,6 +28,7 @@ public class Item : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         StartCoroutine(AnimateItemPickup());
     }
+    //Functie care animeaza pickupul itemului in inventar de catre jucator
     private IEnumerator AnimateItemPickup()
     {
         audioSource.Play();
