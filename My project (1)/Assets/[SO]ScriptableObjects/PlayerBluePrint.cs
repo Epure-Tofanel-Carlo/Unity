@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "NewPlayerBluePrint", menuName = "Custom/Create Player")]
 [System.Serializable]
@@ -10,12 +11,13 @@ public class PlayerBluePrint : ScriptableObject
     [SerializeField] private float health;
     [SerializeField] private int armor;
     [SerializeField] private int money;
-
+    [SerializeField] private bool finalScene;
     public PlayerBluePrint()
     {
         health = 100;
         armor = 100;
         money = 10000;
+        finalScene = false;
     }
     public float getHealth() { return health; }
     public int getArmor() { return armor;}
@@ -36,10 +38,14 @@ public class PlayerBluePrint : ScriptableObject
     public void giveMoney(int coins)
     {
         money += coins;
+        checkWinGame(); //de fiecare data cand actualizam banii player-ului verificam daca s-a atins suma finala
     }
 
+    public void checkWinGame() //functie care verifica daca player ul atinge o anumita suma de bani atunci jocul se termina 
+    {//si se afiseaza credit scene ul 
+        if (money >= 20000 && !finalScene) { finalScene = true; SceneManager.LoadScene(12);} 
 
-
+    }
 
 
 }
