@@ -1,9 +1,11 @@
-﻿using Inventory.Model;
+﻿using GamePlay;
+using Inventory.Model;
 using System.Collections;
 using UnityEngine;
 
 public class FishMovement : MonoBehaviour
 {
+    
     public float speed = 0.4f;
     public float maxRange = 15f; // Distanța maximă de mișcare la stânga și la dreapta
     public float minRange = 5f;  // Distanța minimă de mișcare la stânga și la dreapta
@@ -21,6 +23,7 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private ItemSO peste;
 
     [SerializeField] private GameObject canvasMiniGame;
+    [SerializeField] private GameObject player;
 
     void Start()
     {
@@ -38,6 +41,7 @@ public class FishMovement : MonoBehaviour
         
         if (!miniGameStatus)
         {
+            player.GetComponent<PlayerMovement>().enabled = false; 
             initialPosition = startPozition;
             miniGameStatus = true;
             StartCoroutine(MoveRandomly());
@@ -88,6 +92,7 @@ public class FishMovement : MonoBehaviour
 
     private void prindePeste()
     {
+        player.GetComponent<PlayerMovement>().enabled = true;
         miniGameStatus = false;
         p = 1;
         score = 0;
