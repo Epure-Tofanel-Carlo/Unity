@@ -29,7 +29,7 @@ namespace Inventory
         //Functia de start care adauga structura de date unde sunt tinute itemele din inventar
         private void Start()
         {
-            inventoryData  = InventoryManager.Instance.GetInventoryData();
+            inventoryData = InventoryManager.Instance.GetInventoryData();
             PrepareUI();
             PrepareInventoryData();
         }
@@ -97,9 +97,9 @@ namespace Inventory
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(inventoryItem.Item.Description);
             stringBuilder.AppendLine();
-            for (int i = 0; i < inventoryItem.itemState.Count; i++) 
+            for (int i = 0; i < inventoryItem.itemState.Count; i++)
             {
-                stringBuilder.Append($"{inventoryItem.itemState[i].itemParameter.ParameterName} "  + $": {inventoryItem.itemState[i].value} / " + $"{inventoryItem.Item.DefaultParametersList[i].value}");
+                stringBuilder.Append($"{inventoryItem.itemState[i].itemParameter.ParameterName} " + $": {inventoryItem.itemState[i].value} / " + $"{inventoryItem.Item.DefaultParametersList[i].value}");
                 // Durability : 20 / 100
                 stringBuilder.AppendLine();
             }
@@ -152,7 +152,7 @@ namespace Inventory
                 Debug.Log("Item is empty");
                 return;
             }
-            
+
 
             IItemAction itemAction = inventoryItem.Item as IItemAction;
             if (itemAction != null)
@@ -213,11 +213,11 @@ namespace Inventory
         private void HandleDragging(int itemIndex)
         {
             InventoryItem inventoryItem = inventoryData.GetItemByIndex(itemIndex);
-            if(inventoryItem.Item.ItemImage == null)
+            if (inventoryItem.Item.ItemImage == null)
             {
                 Debug.LogError("sprite is null.");
             }
-            if(inventoryItem.isEmpty)
+            if (inventoryItem.isEmpty)
             {
                 return;
             }

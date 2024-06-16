@@ -18,5 +18,6 @@ MonoBehaviour:
   <Description>k__BackingField: 
   <ItemImage>k__BackingField: {fileID: 763115305, guid: a38b6dc65c02f86448b1b5246ab5de0c, type: 3}
   <ItemPrefab>k__BackingField: {fileID: 0}
+  <Price>k__BackingField: 100
   <DefaultParametersList>k__BackingField: []
   <MineTime>k__BackingField: 1
