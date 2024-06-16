@@ -251,7 +251,7 @@ MonoBehaviour:
   inventory: {fileID: 11400000, guid: 9cecd271b65e58b4eb8bd4d42ffe5399, type: 2}
   peste: {fileID: 11400000, guid: a7adebff8c4413044bb55c4d55b5b02b, type: 2}
   canvasMiniGame: {fileID: 1240817131}
-  player: {fileID: 0}
+  player: {fileID: 1231051258}
 --- !u!114 &8263258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115880,11 +115880,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f26e199a5e33342b0406ff9c665398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
   playerMovement: {x: 0, y: 0, z: 0}
   animators: []
   dashSpeed: 50
   dashDuration: 0.09
   dashCooldown: 0.5
+  isDashing: 0
+  canDash: 1
 --- !u!50 &1231051269
 Rigidbody2D:
   serializedVersion: 4

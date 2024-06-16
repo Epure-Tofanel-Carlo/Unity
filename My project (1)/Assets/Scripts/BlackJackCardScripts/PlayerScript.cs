@@ -7,14 +7,15 @@ public class PlayerScript : MonoBehaviour
     // --- SCRIPTUL E SI PT PLAYER SI DEALER
 
     // Luam restu scripturilor
-    public CardScript cardScript;   
+    public CardScript cardScript;
     public DeckScript deckScript;
 
     // valoarea totala la mana jucatorului
     public int handValue = 0;
 
     // Cati bani ai
-    private int money = 1000;
+    [SerializeField]
+    private PlayerBluePrint playerStats; // Using the PlayerBluePrint scriptable object for managing player money
 
     // Cate carti ai pe masa
     public GameObject[] hand;
@@ -39,7 +40,7 @@ public class PlayerScript : MonoBehaviour
         // Adaugam valoarea cartii
         handValue += cardValue;
         // Daca e 1, e As
-        if(cardValue == 1)
+        if (cardValue == 1)
         {
             aceList.Add(hand[cardIndex].GetComponent<CardScript>());
         }
@@ -55,12 +56,13 @@ public class PlayerScript : MonoBehaviour
         // pt fiecare As in mana
         foreach (CardScript ace in aceList)
         {
-            if(handValue + 10 < 22 && ace.GetValueOfCard() == 1) // daca am da bust cu As-u fiind 11, il punem 1
+            if (handValue + 10 < 22 && ace.GetValueOfCard() == 1) // daca am da bust cu As-u fiind 11, il punem 1
             {
                 // Daca convertim, schimbam valorile
                 ace.SetValue(11);
                 handValue += 10;
-            } else if (handValue > 21 && ace.GetValueOfCard() == 11) // daca mai avem loc de As-u ca fiind 11, il adaugam/lasam asa
+            }
+            else if (handValue > 21 && ace.GetValueOfCard() == 11) // daca mai avem loc de As-u ca fiind 11, il adaugam/lasam asa
             {
                 // Daca convertim, schimbam valorile
                 ace.SetValue(1);
@@ -72,19 +74,29 @@ public class PlayerScript : MonoBehaviour
     // adaugam sau scadem bani, pt bets
     public void AdjustMoney(int amount)
     {
-        money += amount;
+        if (amount > 0)
+        {
+            playerStats.giveMoney(amount);
+        }
+        else
+        {
+            if (!playerStats.updateMoney(-amount))
+            {
+                Debug.Log("Not enough money to make this bet.");
+            }
+        }
     }
 
     // Output la banii curenti la player 
     public int GetMoney()
     {
-        return money;
+        return playerStats.getMoney();
     }
 
     // Ascunde toate cartile, reseteaza variabilele necesare 
     public void ResetHand()
     {
-        for(int i = 0; i < hand.Length; i++)
+        for (int i = 0; i < hand.Length; i++)
         {
             hand[i].GetComponent<CardScript>().ResetCard();
             hand[i].GetComponent<Renderer>().enabled = false;
