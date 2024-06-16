@@ -9950,9 +9950,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 9
-  sceneToSwith:
-    m_Handle: 0
-  switherName: Blackjack
 --- !u!61 &634581768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10433,9 +10430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 1
-  sceneToSwith:
-    m_Handle: 0
-  switherName: Main
 --- !u!61 &704823724
 BoxCollider2D:
   m_ObjectHideFlags: 0

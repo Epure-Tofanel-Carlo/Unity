@@ -10130,9 +10130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 1
-  sceneToSwith:
-    m_Handle: 0
-  switherName: Main
 --- !u!61 &704823724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15171,7 +15168,7 @@ GameObject:
   - component: {fileID: 1893140854}
   - component: {fileID: 1893140853}
   m_Layer: 0
-  m_Name: SceneSwitch
+  m_Name: SceneSwitch Farm
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: ce009ee7a4fb24c1da2f07064894e6c4, type: 3}
   m_NavMeshLayer: 0
@@ -15190,9 +15187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 3
-  sceneToSwith:
-    m_Handle: 0
-  switherName: Farm
 --- !u!61 &1893140854
 BoxCollider2D:
   m_ObjectHideFlags: 0
