@@ -1771,9 +1771,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 1
-  sceneToSwith:
-    m_Handle: 0
-  switherName: 
 --- !u!61 &1062293122
 BoxCollider2D:
   m_ObjectHideFlags: 0
