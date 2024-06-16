@@ -14,7 +14,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void Start()
     {
-        switherName = gameObject.name.Split(' ')[1];
+        switherName = gameObject.name.Split(' ')[1]; // TREBUIE SA PUI NUMELE SCENESWITH NUME
        
 
 
