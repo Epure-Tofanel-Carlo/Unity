@@ -18,6 +18,7 @@ MonoBehaviour:
   <Description>k__BackingField: This is a dead rat, you can eat it.
   <ItemImage>k__BackingField: {fileID: 21300000, guid: 0b034de202d3a704181cc4026bfeed9a, type: 3}
   <ItemPrefab>k__BackingField: {fileID: 0}
+  <Price>k__BackingField: 50
   <DefaultParametersList>k__BackingField: []
   modifiersData:
   - statModifier: {fileID: 11400000, guid: dab32d84179d36b4eae63817b8056f32, type: 2}

@@ -18,5 +18,6 @@ MonoBehaviour:
   <Description>k__BackingField: A pickaxe made of stone
   <ItemImage>k__BackingField: {fileID: 21300000, guid: 967c4a68770babe4e8cf80a7e9f47533, type: 3}
   <ItemPrefab>k__BackingField: {fileID: 0}
+  <Price>k__BackingField: 200
   <DefaultParametersList>k__BackingField: []
   <actionSFX>k__BackingField: {fileID: 0}
