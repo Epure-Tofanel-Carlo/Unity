@@ -10,7 +10,7 @@ public class ItemInfoManager : MonoBehaviour
     public TextMeshProUGUI itemDescription;
 
 
-    private void Awake()
+    private void Awake()  // SINGLETON
     {
         if(Instance != null && Instance!= this)
         {

@@ -16,7 +16,7 @@ public class PlayerBluePrint : ScriptableObject
     {
         health = 100;
         armor = 100;
-        money = 10000;
+        money = 1700;
         finalScene = false;
     }
     public float getHealth() { return health; }
@@ -43,7 +43,7 @@ public class PlayerBluePrint : ScriptableObject
 
     public void checkWinGame() //functie care verifica daca player ul atinge o anumita suma de bani atunci jocul se termina 
     {//si se afiseaza credit scene ul 
-        if (money >= 20000 && !finalScene) { finalScene = true; SceneManager.LoadScene(12);} 
+        if (money >= 2000 && !finalScene) { finalScene = true; SceneManager.LoadScene(13);} 
 
     }
 

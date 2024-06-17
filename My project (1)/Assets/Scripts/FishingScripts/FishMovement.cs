@@ -104,7 +104,7 @@ public class FishMovement : MonoBehaviour
    
     private void OnMouseOver()
     {
-        score += 0.01f;
+        score += 0.1f;
         
     }
     

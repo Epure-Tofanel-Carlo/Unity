@@ -9873,11 +9873,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f26e199a5e33342b0406ff9c665398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
   playerMovement: {x: 0, y: 0, z: 0}
   animators: []
   dashSpeed: 50
   dashDuration: 0.09
   dashCooldown: 0.5
+  isDashing: 0
+  canDash: 1
 --- !u!50 &199924653
 Rigidbody2D:
   serializedVersion: 4
@@ -55107,19 +55110,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1216.772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 820.526
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275793054015226610, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7300673176671251057, guid: cd4b11cbf3a2e5a43a9ef0f84f5a6e62, type: 3}
       propertyPath: m_Pivot.x
@@ -56957,9 +56964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 5
-  sceneToSwith:
-    m_Handle: 0
-  switherName: 
 --- !u!61 &1893140854
 BoxCollider2D:
   m_ObjectHideFlags: 0

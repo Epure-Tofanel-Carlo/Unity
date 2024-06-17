@@ -7,8 +7,8 @@ public class RatBite : MonoBehaviour
     [SerializeField] private Canvas parentCanvas;
     [SerializeField] private ItemGenerate itemGenerate;
     void Start()
-    {
-        parentCanvas = GetComponentInParent<Canvas>();
+    {         
+        parentCanvas = GetComponentInParent<Canvas>();  // tragem canvas u etc
         itemGenerate = GetComponentInParent<ItemGenerate>();
     }
 
@@ -17,7 +17,7 @@ public class RatBite : MonoBehaviour
         if (parentCanvas != null)
         {
             parentCanvas.enabled = false;
-            itemGenerate.deleteItems();
+            itemGenerate.deleteItems();   // stergem si sobolanu dupa ce da bite
             Debug.Log("A rat bite you");
         }
     }
