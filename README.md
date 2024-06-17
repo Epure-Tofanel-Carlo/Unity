@@ -1,8 +1,9 @@
 
 #Unity Game - The Lucky Tavern
 
-Jocul consta intr-o taverna centrala unde o sa se regaseasca diferite jocuri cum ar fi:  blackjack, barbut, slots etc.. Pentru a juca in aceasta taverna ai nevoie de bani, iar taverna este facuta sa castige mai des decat tine, astfel incat sa nu fie rentabil sa faci bani pe aceasta cale la inceput.
-In jurul tavernei vor exista multiple sisteme pentru a face rost de bani: fishing, mining, fighting, farming. Pe langa banii obtinuti prin participarea in mecanicile acestea.
+Jocul consta intr-o taverna centrala unde o sa se regaseasca diferite jocuri cum ar fi:  blackjack, barbut, slot.
+Pentru a juca in aceasta taverna ai nevoie de bani, iar taverna este facuta sa castige mai des decat tine, astfel incat sa nu fie rentabil sa faci bani pe aceasta cale la inceput.
+In jurul tavernei vor exista multiple sisteme pentru a face rost de bani: fishing, mining, fighting, farming alaturi de alte activitati diverse interesante. Exista si metode de a cheltui acesti bani pe langa taverna, cum ar fi in market si store.
 
 
 # User stories
